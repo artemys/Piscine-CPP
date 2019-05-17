@@ -6,15 +6,17 @@
 class ZombieEvent
 {
 	public:
-		ZombieEvent();
+		ZombieEvent(std::string);
 		~ZombieEvent();
 
 		std::string getZombieType() const;
 		void 		setZombieType(std::string const);
-		Zombie 		*newZombie(std::string, std::string const);
-		Zombie		*ramdomChump();
+
+		Zombie 		*newZombie(std::string);
+		void		randomChump();
+
 	private:
-		std::string _type;
+		std::string	_type;
 };
 
 #endif

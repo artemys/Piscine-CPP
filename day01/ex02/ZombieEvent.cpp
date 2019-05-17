@@ -4,12 +4,11 @@
 #include "Zombie.hpp"
 
 
-ZombieEvent::ZombieEvent(void){}
+ZombieEvent::ZombieEvent(std::string type) : _type(type){}
+
 ZombieEvent::~ZombieEvent(void){}
 
-std::string	ZombieEvent::getZombieType() const {
-	return this->_type;
-}
+
 std::string randomName[11] = {
 	"Erre",
 	"Stourie",
@@ -24,17 +23,23 @@ std::string randomName[11] = {
 	"Te"
 };
 
-Zombie *Zombie::newZombie(std::string name, std::string const zombieType){
-	return new Zombie(name, zombietype);
-}
 
+std::string	ZombieEvent::getZombieType() const {
+	return this->_type;
+}
 void	ZombieEvent::setZombieType(std::string const zombieType){
-		this->getZombieType() = zombieType;
+		this->_type = zombieType;
 	return;
 }
 
-Zombie	*ZombieEvent::randomChump(){
-	Zombie 	*newZombie = newZombie(randomName[rand() % 11], "nya");
-	newZombie->annonce();
-	return(newZombie);
+Zombie *ZombieEvent::newZombie(std::string name){
+	Zombie *newBornZombie = new Zombie(name);
+	newBornZombie->setZombieType(this->_type);
+	return newBornZombie;
+}
+void	ZombieEvent::randomChump(){
+	Zombie stackZombie(randomName[rand() % 11]);
+	stackZombie.setZombieType(this->_type);
+
+	stackZombie.announce();
 }

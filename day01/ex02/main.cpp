@@ -3,11 +3,20 @@
 #include <iostream>
 #include "Zombie.hpp"
 
-
-
 int main(){
-	Zombie firstZombie;
 
-	firstZombie.annonce();
-	return 0 ; 	
+
+	ZombieEvent secondeZombieWave("Skoliosexuel");
+	secondeZombieWave.randomChump();
+
+	ZombieEvent *firstZombieWave = new ZombieEvent("CPUsexuel");
+	firstZombieWave->randomChump();
+	
+	Zombie *firstZombie = firstZombieWave->newZombie("Nouze");
+	firstZombie->announce();
+
+	delete firstZombieWave;
+	delete firstZombie;
+
+	return 0;
 }
