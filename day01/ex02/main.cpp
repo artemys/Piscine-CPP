@@ -3,4 +3,11 @@
 #include <iostream>
 #include "Zombie.hpp"
 
-int main
+
+
+int main(){
+	Zombie firstZombie;
+
+	firstZombie.annonce();
+	return 0 ; 	
+}

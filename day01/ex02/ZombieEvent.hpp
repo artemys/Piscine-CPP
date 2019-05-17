@@ -10,9 +10,11 @@ class ZombieEvent
 		~ZombieEvent();
 
 		std::string getZombieType() const;
-		void 		setZombieType();
-		Zombie 		*newZombie(std::string name);
-		void		ramdomChump();
+		void 		setZombieType(std::string const);
+		Zombie 		*newZombie(std::string, std::string const);
+		Zombie		*ramdomChump();
+	private:
+		std::string _type;
 };
 
 #endif
