@@ -2,8 +2,6 @@
 
 
 int main(){
-	Zombie firstZombie("nya");
-	firstZombie.setZombieType("test");
-	firstZombie.announce();
+	ZombieHorde firstZombieWave(4);
 	return 0; 
 }

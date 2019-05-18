@@ -17,10 +17,13 @@ std::string randomName[11] = {
 };
 
 ZombieHorde::ZombieHorde(int  n){
-	Zombie zombie1[n];
+	Zombie zombieWave[n];
+
 	for (int i = 0; i < n; ++i)
 	{
-		/* code */
+		zombieWave[i].setZombieName(randomName[rand() % 11]);
+		zombieWave[i].setZombieType("Windowsexuel");
+		zombieWave[i].announce();
 	}
 }
 

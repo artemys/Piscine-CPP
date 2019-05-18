@@ -1,7 +1,7 @@
 
 #include "Zombie.hpp"
 
-Zombie::Zombie(std::string name) : _name(name){ 
+Zombie::Zombie(){ 
 	std::cout << "New Zombie wakes up" << std::endl;
 }
 Zombie::~Zombie(void){
