@@ -5,11 +5,7 @@ int main(){
 
 	int		*ballsptr = &numberOfBalls;
 
-/*une reference c'est comme un pointeur tjrs dereferencer 
-c'est non null 
-et constant 
-donc c'est cool mais ca ne remplace pas les pointeurs : 
-les pointeur peuvent etre init sans variable  */
+/*une reference c'est comme un pointeur tjrs dereference
 	int 	&ballsRef = numberOfBalls;
 
 /* 	LES REFS SONT CONSTANTES, 
@@ -20,7 +16,7 @@ les pointeur peuvent etre init sans variable  */
 
 	std::cout << numberOfBalls << " " 
 	<< *ballsptr << " "
-	<< ballsRef 
+	<< &ballsRef 
 	<< std::endl;
 
 	*ballsptr = 21;
