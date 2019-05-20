@@ -1,5 +1,5 @@
-CC = g++
-CFLAGS = -Wall -Wextra -Werror -Wno-used
+CC = clang++
+CFLAGS = -Wall -Wextra -Werror -std=c++98 -pedantic-errors
 NAME = replace
 # INCLUDES =
 # LIBS =
