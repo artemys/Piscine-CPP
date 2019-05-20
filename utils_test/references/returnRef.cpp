@@ -12,7 +12,7 @@ class Student{
 		std::string 			&getLoginRef(){
 			return this->_login;
 		}
-/* wtf const deux fois ?*/
+
 		std::string const 		&getLoginRefConst() const {
 			return this->_login;
 		}
