@@ -7,5 +7,8 @@ public:
 	ZombieHorde(int n);
 	~ZombieHorde();
 
+private:
+	int		_n;
+	Zombie	*_wave;
 };
 #endif

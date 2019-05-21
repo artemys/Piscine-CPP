@@ -17,8 +17,9 @@ std::string randomName[11] = {
 };
 
 ZombieHorde::ZombieHorde(int  n){
-	Zombie zombieWave[n];
-
+	Zombie *zombieWave = new Zombie[n];
+	this->_n = n;
+	this->_wave = zombieWave;
 	for (int i = 0; i < n; ++i)
 	{
 		zombieWave[i].setZombieName(randomName[rand() % 11]);
@@ -27,5 +28,7 @@ ZombieHorde::ZombieHorde(int  n){
 	}
 }
 
-ZombieHorde::~ZombieHorde(){}
+ZombieHorde::~ZombieHorde() {
+	delete [] this->_wave;
+}
 
