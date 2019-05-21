@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake
+CMAKE_COMMAND = /home/iphie/clion-2019.1.3/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
+RM = /home/iphie/clion-2019.1.3/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/aliandie/Projects/Piscine-CPP
+CMAKE_SOURCE_DIR = /home/iphie/42/CPP/Piscine-CPP
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/aliandie/Projects/Piscine-CPP/cmake-build-debug
+CMAKE_BINARY_DIR = /home/iphie/42/CPP/Piscine-CPP/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/main.dir/depend.make
@@ -57,477 +57,529 @@ include CMakeFiles/main.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/main.dir/flags.make
 
-CMakeFiles/main.dir/CMakeFiles/3.14.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/CMakeFiles/3.14.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.o: CMakeFiles/3.14.2/CompilerIdCXX/CMakeCXXCompilerId.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aliandie/Projects/Piscine-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main.dir/CMakeFiles/3.14.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/CMakeFiles/3.14.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.o -c /Users/aliandie/Projects/Piscine-CPP/cmake-build-debug/CMakeFiles/3.14.2/CompilerIdCXX/CMakeCXXCompilerId.cpp
+CMakeFiles/main.dir/CMakeFiles/3.14.3/CompilerIdCXX/CMakeCXXCompilerId.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/CMakeFiles/3.14.3/CompilerIdCXX/CMakeCXXCompilerId.cpp.o: CMakeFiles/3.14.3/CompilerIdCXX/CMakeCXXCompilerId.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iphie/42/CPP/Piscine-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main.dir/CMakeFiles/3.14.3/CompilerIdCXX/CMakeCXXCompilerId.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/CMakeFiles/3.14.3/CompilerIdCXX/CMakeCXXCompilerId.cpp.o -c /home/iphie/42/CPP/Piscine-CPP/cmake-build-debug/CMakeFiles/3.14.3/CompilerIdCXX/CMakeCXXCompilerId.cpp
 
-CMakeFiles/main.dir/CMakeFiles/3.14.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/CMakeFiles/3.14.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/aliandie/Projects/Piscine-CPP/cmake-build-debug/CMakeFiles/3.14.2/CompilerIdCXX/CMakeCXXCompilerId.cpp > CMakeFiles/main.dir/CMakeFiles/3.14.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.i
+CMakeFiles/main.dir/CMakeFiles/3.14.3/CompilerIdCXX/CMakeCXXCompilerId.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/CMakeFiles/3.14.3/CompilerIdCXX/CMakeCXXCompilerId.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/iphie/42/CPP/Piscine-CPP/cmake-build-debug/CMakeFiles/3.14.3/CompilerIdCXX/CMakeCXXCompilerId.cpp > CMakeFiles/main.dir/CMakeFiles/3.14.3/CompilerIdCXX/CMakeCXXCompilerId.cpp.i
 
-CMakeFiles/main.dir/CMakeFiles/3.14.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/CMakeFiles/3.14.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aliandie/Projects/Piscine-CPP/cmake-build-debug/CMakeFiles/3.14.2/CompilerIdCXX/CMakeCXXCompilerId.cpp -o CMakeFiles/main.dir/CMakeFiles/3.14.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.s
+CMakeFiles/main.dir/CMakeFiles/3.14.3/CompilerIdCXX/CMakeCXXCompilerId.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/CMakeFiles/3.14.3/CompilerIdCXX/CMakeCXXCompilerId.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/iphie/42/CPP/Piscine-CPP/cmake-build-debug/CMakeFiles/3.14.3/CompilerIdCXX/CMakeCXXCompilerId.cpp -o CMakeFiles/main.dir/CMakeFiles/3.14.3/CompilerIdCXX/CMakeCXXCompilerId.cpp.s
 
 CMakeFiles/main.dir/day00/ex00/megaphone.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/day00/ex00/megaphone.cpp.o: ../day00/ex00/megaphone.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aliandie/Projects/Piscine-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main.dir/day00/ex00/megaphone.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/day00/ex00/megaphone.cpp.o -c /Users/aliandie/Projects/Piscine-CPP/day00/ex00/megaphone.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iphie/42/CPP/Piscine-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main.dir/day00/ex00/megaphone.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/day00/ex00/megaphone.cpp.o -c /home/iphie/42/CPP/Piscine-CPP/day00/ex00/megaphone.cpp
 
 CMakeFiles/main.dir/day00/ex00/megaphone.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/day00/ex00/megaphone.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/aliandie/Projects/Piscine-CPP/day00/ex00/megaphone.cpp > CMakeFiles/main.dir/day00/ex00/megaphone.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/iphie/42/CPP/Piscine-CPP/day00/ex00/megaphone.cpp > CMakeFiles/main.dir/day00/ex00/megaphone.cpp.i
 
 CMakeFiles/main.dir/day00/ex00/megaphone.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/day00/ex00/megaphone.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aliandie/Projects/Piscine-CPP/day00/ex00/megaphone.cpp -o CMakeFiles/main.dir/day00/ex00/megaphone.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/iphie/42/CPP/Piscine-CPP/day00/ex00/megaphone.cpp -o CMakeFiles/main.dir/day00/ex00/megaphone.cpp.s
 
 CMakeFiles/main.dir/day00/ex01/phone_book.class.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/day00/ex01/phone_book.class.cpp.o: ../day00/ex01/phone_book.class.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aliandie/Projects/Piscine-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main.dir/day00/ex01/phone_book.class.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/day00/ex01/phone_book.class.cpp.o -c /Users/aliandie/Projects/Piscine-CPP/day00/ex01/phone_book.class.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iphie/42/CPP/Piscine-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main.dir/day00/ex01/phone_book.class.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/day00/ex01/phone_book.class.cpp.o -c /home/iphie/42/CPP/Piscine-CPP/day00/ex01/phone_book.class.cpp
 
 CMakeFiles/main.dir/day00/ex01/phone_book.class.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/day00/ex01/phone_book.class.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/aliandie/Projects/Piscine-CPP/day00/ex01/phone_book.class.cpp > CMakeFiles/main.dir/day00/ex01/phone_book.class.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/iphie/42/CPP/Piscine-CPP/day00/ex01/phone_book.class.cpp > CMakeFiles/main.dir/day00/ex01/phone_book.class.cpp.i
 
 CMakeFiles/main.dir/day00/ex01/phone_book.class.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/day00/ex01/phone_book.class.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aliandie/Projects/Piscine-CPP/day00/ex01/phone_book.class.cpp -o CMakeFiles/main.dir/day00/ex01/phone_book.class.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/iphie/42/CPP/Piscine-CPP/day00/ex01/phone_book.class.cpp -o CMakeFiles/main.dir/day00/ex01/phone_book.class.cpp.s
 
 CMakeFiles/main.dir/day00/ex01/phone_book.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/day00/ex01/phone_book.cpp.o: ../day00/ex01/phone_book.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aliandie/Projects/Piscine-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/main.dir/day00/ex01/phone_book.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/day00/ex01/phone_book.cpp.o -c /Users/aliandie/Projects/Piscine-CPP/day00/ex01/phone_book.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iphie/42/CPP/Piscine-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/main.dir/day00/ex01/phone_book.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/day00/ex01/phone_book.cpp.o -c /home/iphie/42/CPP/Piscine-CPP/day00/ex01/phone_book.cpp
 
 CMakeFiles/main.dir/day00/ex01/phone_book.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/day00/ex01/phone_book.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/aliandie/Projects/Piscine-CPP/day00/ex01/phone_book.cpp > CMakeFiles/main.dir/day00/ex01/phone_book.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/iphie/42/CPP/Piscine-CPP/day00/ex01/phone_book.cpp > CMakeFiles/main.dir/day00/ex01/phone_book.cpp.i
 
 CMakeFiles/main.dir/day00/ex01/phone_book.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/day00/ex01/phone_book.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aliandie/Projects/Piscine-CPP/day00/ex01/phone_book.cpp -o CMakeFiles/main.dir/day00/ex01/phone_book.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/iphie/42/CPP/Piscine-CPP/day00/ex01/phone_book.cpp -o CMakeFiles/main.dir/day00/ex01/phone_book.cpp.s
 
 CMakeFiles/main.dir/day00/ex02/Account.class.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/day00/ex02/Account.class.cpp.o: ../day00/ex02/Account.class.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aliandie/Projects/Piscine-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/main.dir/day00/ex02/Account.class.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/day00/ex02/Account.class.cpp.o -c /Users/aliandie/Projects/Piscine-CPP/day00/ex02/Account.class.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iphie/42/CPP/Piscine-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/main.dir/day00/ex02/Account.class.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/day00/ex02/Account.class.cpp.o -c /home/iphie/42/CPP/Piscine-CPP/day00/ex02/Account.class.cpp
 
 CMakeFiles/main.dir/day00/ex02/Account.class.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/day00/ex02/Account.class.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/aliandie/Projects/Piscine-CPP/day00/ex02/Account.class.cpp > CMakeFiles/main.dir/day00/ex02/Account.class.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/iphie/42/CPP/Piscine-CPP/day00/ex02/Account.class.cpp > CMakeFiles/main.dir/day00/ex02/Account.class.cpp.i
 
 CMakeFiles/main.dir/day00/ex02/Account.class.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/day00/ex02/Account.class.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aliandie/Projects/Piscine-CPP/day00/ex02/Account.class.cpp -o CMakeFiles/main.dir/day00/ex02/Account.class.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/iphie/42/CPP/Piscine-CPP/day00/ex02/Account.class.cpp -o CMakeFiles/main.dir/day00/ex02/Account.class.cpp.s
 
 CMakeFiles/main.dir/day01/ex00/Pony.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/day01/ex00/Pony.cpp.o: ../day01/ex00/Pony.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aliandie/Projects/Piscine-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/main.dir/day01/ex00/Pony.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/day01/ex00/Pony.cpp.o -c /Users/aliandie/Projects/Piscine-CPP/day01/ex00/Pony.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iphie/42/CPP/Piscine-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/main.dir/day01/ex00/Pony.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/day01/ex00/Pony.cpp.o -c /home/iphie/42/CPP/Piscine-CPP/day01/ex00/Pony.cpp
 
 CMakeFiles/main.dir/day01/ex00/Pony.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/day01/ex00/Pony.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/aliandie/Projects/Piscine-CPP/day01/ex00/Pony.cpp > CMakeFiles/main.dir/day01/ex00/Pony.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/iphie/42/CPP/Piscine-CPP/day01/ex00/Pony.cpp > CMakeFiles/main.dir/day01/ex00/Pony.cpp.i
 
 CMakeFiles/main.dir/day01/ex00/Pony.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/day01/ex00/Pony.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aliandie/Projects/Piscine-CPP/day01/ex00/Pony.cpp -o CMakeFiles/main.dir/day01/ex00/Pony.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/iphie/42/CPP/Piscine-CPP/day01/ex00/Pony.cpp -o CMakeFiles/main.dir/day01/ex00/Pony.cpp.s
 
 CMakeFiles/main.dir/day01/ex00/main.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/day01/ex00/main.cpp.o: ../day01/ex00/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aliandie/Projects/Piscine-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/main.dir/day01/ex00/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/day01/ex00/main.cpp.o -c /Users/aliandie/Projects/Piscine-CPP/day01/ex00/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iphie/42/CPP/Piscine-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/main.dir/day01/ex00/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/day01/ex00/main.cpp.o -c /home/iphie/42/CPP/Piscine-CPP/day01/ex00/main.cpp
 
 CMakeFiles/main.dir/day01/ex00/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/day01/ex00/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/aliandie/Projects/Piscine-CPP/day01/ex00/main.cpp > CMakeFiles/main.dir/day01/ex00/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/iphie/42/CPP/Piscine-CPP/day01/ex00/main.cpp > CMakeFiles/main.dir/day01/ex00/main.cpp.i
 
 CMakeFiles/main.dir/day01/ex00/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/day01/ex00/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aliandie/Projects/Piscine-CPP/day01/ex00/main.cpp -o CMakeFiles/main.dir/day01/ex00/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/iphie/42/CPP/Piscine-CPP/day01/ex00/main.cpp -o CMakeFiles/main.dir/day01/ex00/main.cpp.s
 
 CMakeFiles/main.dir/day01/ex01/ex01.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/day01/ex01/ex01.cpp.o: ../day01/ex01/ex01.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aliandie/Projects/Piscine-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/main.dir/day01/ex01/ex01.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/day01/ex01/ex01.cpp.o -c /Users/aliandie/Projects/Piscine-CPP/day01/ex01/ex01.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iphie/42/CPP/Piscine-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/main.dir/day01/ex01/ex01.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/day01/ex01/ex01.cpp.o -c /home/iphie/42/CPP/Piscine-CPP/day01/ex01/ex01.cpp
 
 CMakeFiles/main.dir/day01/ex01/ex01.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/day01/ex01/ex01.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/aliandie/Projects/Piscine-CPP/day01/ex01/ex01.cpp > CMakeFiles/main.dir/day01/ex01/ex01.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/iphie/42/CPP/Piscine-CPP/day01/ex01/ex01.cpp > CMakeFiles/main.dir/day01/ex01/ex01.cpp.i
 
 CMakeFiles/main.dir/day01/ex01/ex01.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/day01/ex01/ex01.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aliandie/Projects/Piscine-CPP/day01/ex01/ex01.cpp -o CMakeFiles/main.dir/day01/ex01/ex01.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/iphie/42/CPP/Piscine-CPP/day01/ex01/ex01.cpp -o CMakeFiles/main.dir/day01/ex01/ex01.cpp.s
 
 CMakeFiles/main.dir/day01/ex02/Zombie.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/day01/ex02/Zombie.cpp.o: ../day01/ex02/Zombie.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aliandie/Projects/Piscine-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/main.dir/day01/ex02/Zombie.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/day01/ex02/Zombie.cpp.o -c /Users/aliandie/Projects/Piscine-CPP/day01/ex02/Zombie.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iphie/42/CPP/Piscine-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/main.dir/day01/ex02/Zombie.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/day01/ex02/Zombie.cpp.o -c /home/iphie/42/CPP/Piscine-CPP/day01/ex02/Zombie.cpp
 
 CMakeFiles/main.dir/day01/ex02/Zombie.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/day01/ex02/Zombie.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/aliandie/Projects/Piscine-CPP/day01/ex02/Zombie.cpp > CMakeFiles/main.dir/day01/ex02/Zombie.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/iphie/42/CPP/Piscine-CPP/day01/ex02/Zombie.cpp > CMakeFiles/main.dir/day01/ex02/Zombie.cpp.i
 
 CMakeFiles/main.dir/day01/ex02/Zombie.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/day01/ex02/Zombie.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aliandie/Projects/Piscine-CPP/day01/ex02/Zombie.cpp -o CMakeFiles/main.dir/day01/ex02/Zombie.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/iphie/42/CPP/Piscine-CPP/day01/ex02/Zombie.cpp -o CMakeFiles/main.dir/day01/ex02/Zombie.cpp.s
 
 CMakeFiles/main.dir/day01/ex02/ZombieEvent.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/day01/ex02/ZombieEvent.cpp.o: ../day01/ex02/ZombieEvent.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aliandie/Projects/Piscine-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/main.dir/day01/ex02/ZombieEvent.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/day01/ex02/ZombieEvent.cpp.o -c /Users/aliandie/Projects/Piscine-CPP/day01/ex02/ZombieEvent.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iphie/42/CPP/Piscine-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/main.dir/day01/ex02/ZombieEvent.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/day01/ex02/ZombieEvent.cpp.o -c /home/iphie/42/CPP/Piscine-CPP/day01/ex02/ZombieEvent.cpp
 
 CMakeFiles/main.dir/day01/ex02/ZombieEvent.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/day01/ex02/ZombieEvent.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/aliandie/Projects/Piscine-CPP/day01/ex02/ZombieEvent.cpp > CMakeFiles/main.dir/day01/ex02/ZombieEvent.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/iphie/42/CPP/Piscine-CPP/day01/ex02/ZombieEvent.cpp > CMakeFiles/main.dir/day01/ex02/ZombieEvent.cpp.i
 
 CMakeFiles/main.dir/day01/ex02/ZombieEvent.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/day01/ex02/ZombieEvent.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aliandie/Projects/Piscine-CPP/day01/ex02/ZombieEvent.cpp -o CMakeFiles/main.dir/day01/ex02/ZombieEvent.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/iphie/42/CPP/Piscine-CPP/day01/ex02/ZombieEvent.cpp -o CMakeFiles/main.dir/day01/ex02/ZombieEvent.cpp.s
 
 CMakeFiles/main.dir/day01/ex02/main.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/day01/ex02/main.cpp.o: ../day01/ex02/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aliandie/Projects/Piscine-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/main.dir/day01/ex02/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/day01/ex02/main.cpp.o -c /Users/aliandie/Projects/Piscine-CPP/day01/ex02/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iphie/42/CPP/Piscine-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/main.dir/day01/ex02/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/day01/ex02/main.cpp.o -c /home/iphie/42/CPP/Piscine-CPP/day01/ex02/main.cpp
 
 CMakeFiles/main.dir/day01/ex02/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/day01/ex02/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/aliandie/Projects/Piscine-CPP/day01/ex02/main.cpp > CMakeFiles/main.dir/day01/ex02/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/iphie/42/CPP/Piscine-CPP/day01/ex02/main.cpp > CMakeFiles/main.dir/day01/ex02/main.cpp.i
 
 CMakeFiles/main.dir/day01/ex02/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/day01/ex02/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aliandie/Projects/Piscine-CPP/day01/ex02/main.cpp -o CMakeFiles/main.dir/day01/ex02/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/iphie/42/CPP/Piscine-CPP/day01/ex02/main.cpp -o CMakeFiles/main.dir/day01/ex02/main.cpp.s
 
 CMakeFiles/main.dir/day01/ex03/Zombie.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/day01/ex03/Zombie.cpp.o: ../day01/ex03/Zombie.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aliandie/Projects/Piscine-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/main.dir/day01/ex03/Zombie.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/day01/ex03/Zombie.cpp.o -c /Users/aliandie/Projects/Piscine-CPP/day01/ex03/Zombie.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iphie/42/CPP/Piscine-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/main.dir/day01/ex03/Zombie.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/day01/ex03/Zombie.cpp.o -c /home/iphie/42/CPP/Piscine-CPP/day01/ex03/Zombie.cpp
 
 CMakeFiles/main.dir/day01/ex03/Zombie.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/day01/ex03/Zombie.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/aliandie/Projects/Piscine-CPP/day01/ex03/Zombie.cpp > CMakeFiles/main.dir/day01/ex03/Zombie.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/iphie/42/CPP/Piscine-CPP/day01/ex03/Zombie.cpp > CMakeFiles/main.dir/day01/ex03/Zombie.cpp.i
 
 CMakeFiles/main.dir/day01/ex03/Zombie.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/day01/ex03/Zombie.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aliandie/Projects/Piscine-CPP/day01/ex03/Zombie.cpp -o CMakeFiles/main.dir/day01/ex03/Zombie.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/iphie/42/CPP/Piscine-CPP/day01/ex03/Zombie.cpp -o CMakeFiles/main.dir/day01/ex03/Zombie.cpp.s
 
 CMakeFiles/main.dir/day01/ex03/ZombieHorde.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/day01/ex03/ZombieHorde.cpp.o: ../day01/ex03/ZombieHorde.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aliandie/Projects/Piscine-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/main.dir/day01/ex03/ZombieHorde.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/day01/ex03/ZombieHorde.cpp.o -c /Users/aliandie/Projects/Piscine-CPP/day01/ex03/ZombieHorde.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iphie/42/CPP/Piscine-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/main.dir/day01/ex03/ZombieHorde.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/day01/ex03/ZombieHorde.cpp.o -c /home/iphie/42/CPP/Piscine-CPP/day01/ex03/ZombieHorde.cpp
 
 CMakeFiles/main.dir/day01/ex03/ZombieHorde.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/day01/ex03/ZombieHorde.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/aliandie/Projects/Piscine-CPP/day01/ex03/ZombieHorde.cpp > CMakeFiles/main.dir/day01/ex03/ZombieHorde.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/iphie/42/CPP/Piscine-CPP/day01/ex03/ZombieHorde.cpp > CMakeFiles/main.dir/day01/ex03/ZombieHorde.cpp.i
 
 CMakeFiles/main.dir/day01/ex03/ZombieHorde.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/day01/ex03/ZombieHorde.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aliandie/Projects/Piscine-CPP/day01/ex03/ZombieHorde.cpp -o CMakeFiles/main.dir/day01/ex03/ZombieHorde.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/iphie/42/CPP/Piscine-CPP/day01/ex03/ZombieHorde.cpp -o CMakeFiles/main.dir/day01/ex03/ZombieHorde.cpp.s
 
 CMakeFiles/main.dir/day01/ex03/main.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/day01/ex03/main.cpp.o: ../day01/ex03/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aliandie/Projects/Piscine-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/main.dir/day01/ex03/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/day01/ex03/main.cpp.o -c /Users/aliandie/Projects/Piscine-CPP/day01/ex03/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iphie/42/CPP/Piscine-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/main.dir/day01/ex03/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/day01/ex03/main.cpp.o -c /home/iphie/42/CPP/Piscine-CPP/day01/ex03/main.cpp
 
 CMakeFiles/main.dir/day01/ex03/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/day01/ex03/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/aliandie/Projects/Piscine-CPP/day01/ex03/main.cpp > CMakeFiles/main.dir/day01/ex03/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/iphie/42/CPP/Piscine-CPP/day01/ex03/main.cpp > CMakeFiles/main.dir/day01/ex03/main.cpp.i
 
 CMakeFiles/main.dir/day01/ex03/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/day01/ex03/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aliandie/Projects/Piscine-CPP/day01/ex03/main.cpp -o CMakeFiles/main.dir/day01/ex03/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/iphie/42/CPP/Piscine-CPP/day01/ex03/main.cpp -o CMakeFiles/main.dir/day01/ex03/main.cpp.s
 
 CMakeFiles/main.dir/day01/ex04/ex04.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/day01/ex04/ex04.cpp.o: ../day01/ex04/ex04.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aliandie/Projects/Piscine-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/main.dir/day01/ex04/ex04.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/day01/ex04/ex04.cpp.o -c /Users/aliandie/Projects/Piscine-CPP/day01/ex04/ex04.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iphie/42/CPP/Piscine-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/main.dir/day01/ex04/ex04.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/day01/ex04/ex04.cpp.o -c /home/iphie/42/CPP/Piscine-CPP/day01/ex04/ex04.cpp
 
 CMakeFiles/main.dir/day01/ex04/ex04.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/day01/ex04/ex04.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/aliandie/Projects/Piscine-CPP/day01/ex04/ex04.cpp > CMakeFiles/main.dir/day01/ex04/ex04.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/iphie/42/CPP/Piscine-CPP/day01/ex04/ex04.cpp > CMakeFiles/main.dir/day01/ex04/ex04.cpp.i
 
 CMakeFiles/main.dir/day01/ex04/ex04.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/day01/ex04/ex04.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aliandie/Projects/Piscine-CPP/day01/ex04/ex04.cpp -o CMakeFiles/main.dir/day01/ex04/ex04.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/iphie/42/CPP/Piscine-CPP/day01/ex04/ex04.cpp -o CMakeFiles/main.dir/day01/ex04/ex04.cpp.s
 
 CMakeFiles/main.dir/day01/ex05/Brain.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/day01/ex05/Brain.cpp.o: ../day01/ex05/Brain.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aliandie/Projects/Piscine-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/main.dir/day01/ex05/Brain.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/day01/ex05/Brain.cpp.o -c /Users/aliandie/Projects/Piscine-CPP/day01/ex05/Brain.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iphie/42/CPP/Piscine-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/main.dir/day01/ex05/Brain.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/day01/ex05/Brain.cpp.o -c /home/iphie/42/CPP/Piscine-CPP/day01/ex05/Brain.cpp
 
 CMakeFiles/main.dir/day01/ex05/Brain.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/day01/ex05/Brain.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/aliandie/Projects/Piscine-CPP/day01/ex05/Brain.cpp > CMakeFiles/main.dir/day01/ex05/Brain.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/iphie/42/CPP/Piscine-CPP/day01/ex05/Brain.cpp > CMakeFiles/main.dir/day01/ex05/Brain.cpp.i
 
 CMakeFiles/main.dir/day01/ex05/Brain.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/day01/ex05/Brain.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aliandie/Projects/Piscine-CPP/day01/ex05/Brain.cpp -o CMakeFiles/main.dir/day01/ex05/Brain.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/iphie/42/CPP/Piscine-CPP/day01/ex05/Brain.cpp -o CMakeFiles/main.dir/day01/ex05/Brain.cpp.s
 
 CMakeFiles/main.dir/day01/ex05/Human.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/day01/ex05/Human.cpp.o: ../day01/ex05/Human.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aliandie/Projects/Piscine-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/main.dir/day01/ex05/Human.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/day01/ex05/Human.cpp.o -c /Users/aliandie/Projects/Piscine-CPP/day01/ex05/Human.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iphie/42/CPP/Piscine-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/main.dir/day01/ex05/Human.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/day01/ex05/Human.cpp.o -c /home/iphie/42/CPP/Piscine-CPP/day01/ex05/Human.cpp
 
 CMakeFiles/main.dir/day01/ex05/Human.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/day01/ex05/Human.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/aliandie/Projects/Piscine-CPP/day01/ex05/Human.cpp > CMakeFiles/main.dir/day01/ex05/Human.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/iphie/42/CPP/Piscine-CPP/day01/ex05/Human.cpp > CMakeFiles/main.dir/day01/ex05/Human.cpp.i
 
 CMakeFiles/main.dir/day01/ex05/Human.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/day01/ex05/Human.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aliandie/Projects/Piscine-CPP/day01/ex05/Human.cpp -o CMakeFiles/main.dir/day01/ex05/Human.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/iphie/42/CPP/Piscine-CPP/day01/ex05/Human.cpp -o CMakeFiles/main.dir/day01/ex05/Human.cpp.s
 
 CMakeFiles/main.dir/day01/ex05/main.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/day01/ex05/main.cpp.o: ../day01/ex05/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aliandie/Projects/Piscine-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/main.dir/day01/ex05/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/day01/ex05/main.cpp.o -c /Users/aliandie/Projects/Piscine-CPP/day01/ex05/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iphie/42/CPP/Piscine-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/main.dir/day01/ex05/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/day01/ex05/main.cpp.o -c /home/iphie/42/CPP/Piscine-CPP/day01/ex05/main.cpp
 
 CMakeFiles/main.dir/day01/ex05/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/day01/ex05/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/aliandie/Projects/Piscine-CPP/day01/ex05/main.cpp > CMakeFiles/main.dir/day01/ex05/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/iphie/42/CPP/Piscine-CPP/day01/ex05/main.cpp > CMakeFiles/main.dir/day01/ex05/main.cpp.i
 
 CMakeFiles/main.dir/day01/ex05/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/day01/ex05/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aliandie/Projects/Piscine-CPP/day01/ex05/main.cpp -o CMakeFiles/main.dir/day01/ex05/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/iphie/42/CPP/Piscine-CPP/day01/ex05/main.cpp -o CMakeFiles/main.dir/day01/ex05/main.cpp.s
 
 CMakeFiles/main.dir/day01/ex06/HumanA.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/day01/ex06/HumanA.cpp.o: ../day01/ex06/HumanA.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aliandie/Projects/Piscine-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/main.dir/day01/ex06/HumanA.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/day01/ex06/HumanA.cpp.o -c /Users/aliandie/Projects/Piscine-CPP/day01/ex06/HumanA.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iphie/42/CPP/Piscine-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/main.dir/day01/ex06/HumanA.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/day01/ex06/HumanA.cpp.o -c /home/iphie/42/CPP/Piscine-CPP/day01/ex06/HumanA.cpp
 
 CMakeFiles/main.dir/day01/ex06/HumanA.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/day01/ex06/HumanA.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/aliandie/Projects/Piscine-CPP/day01/ex06/HumanA.cpp > CMakeFiles/main.dir/day01/ex06/HumanA.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/iphie/42/CPP/Piscine-CPP/day01/ex06/HumanA.cpp > CMakeFiles/main.dir/day01/ex06/HumanA.cpp.i
 
 CMakeFiles/main.dir/day01/ex06/HumanA.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/day01/ex06/HumanA.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aliandie/Projects/Piscine-CPP/day01/ex06/HumanA.cpp -o CMakeFiles/main.dir/day01/ex06/HumanA.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/iphie/42/CPP/Piscine-CPP/day01/ex06/HumanA.cpp -o CMakeFiles/main.dir/day01/ex06/HumanA.cpp.s
 
 CMakeFiles/main.dir/day01/ex06/HumanB.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/day01/ex06/HumanB.cpp.o: ../day01/ex06/HumanB.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aliandie/Projects/Piscine-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/main.dir/day01/ex06/HumanB.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/day01/ex06/HumanB.cpp.o -c /Users/aliandie/Projects/Piscine-CPP/day01/ex06/HumanB.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iphie/42/CPP/Piscine-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/main.dir/day01/ex06/HumanB.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/day01/ex06/HumanB.cpp.o -c /home/iphie/42/CPP/Piscine-CPP/day01/ex06/HumanB.cpp
 
 CMakeFiles/main.dir/day01/ex06/HumanB.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/day01/ex06/HumanB.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/aliandie/Projects/Piscine-CPP/day01/ex06/HumanB.cpp > CMakeFiles/main.dir/day01/ex06/HumanB.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/iphie/42/CPP/Piscine-CPP/day01/ex06/HumanB.cpp > CMakeFiles/main.dir/day01/ex06/HumanB.cpp.i
 
 CMakeFiles/main.dir/day01/ex06/HumanB.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/day01/ex06/HumanB.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aliandie/Projects/Piscine-CPP/day01/ex06/HumanB.cpp -o CMakeFiles/main.dir/day01/ex06/HumanB.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/iphie/42/CPP/Piscine-CPP/day01/ex06/HumanB.cpp -o CMakeFiles/main.dir/day01/ex06/HumanB.cpp.s
 
 CMakeFiles/main.dir/day01/ex06/Weapon.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/day01/ex06/Weapon.cpp.o: ../day01/ex06/Weapon.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aliandie/Projects/Piscine-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/main.dir/day01/ex06/Weapon.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/day01/ex06/Weapon.cpp.o -c /Users/aliandie/Projects/Piscine-CPP/day01/ex06/Weapon.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iphie/42/CPP/Piscine-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/main.dir/day01/ex06/Weapon.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/day01/ex06/Weapon.cpp.o -c /home/iphie/42/CPP/Piscine-CPP/day01/ex06/Weapon.cpp
 
 CMakeFiles/main.dir/day01/ex06/Weapon.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/day01/ex06/Weapon.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/aliandie/Projects/Piscine-CPP/day01/ex06/Weapon.cpp > CMakeFiles/main.dir/day01/ex06/Weapon.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/iphie/42/CPP/Piscine-CPP/day01/ex06/Weapon.cpp > CMakeFiles/main.dir/day01/ex06/Weapon.cpp.i
 
 CMakeFiles/main.dir/day01/ex06/Weapon.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/day01/ex06/Weapon.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aliandie/Projects/Piscine-CPP/day01/ex06/Weapon.cpp -o CMakeFiles/main.dir/day01/ex06/Weapon.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/iphie/42/CPP/Piscine-CPP/day01/ex06/Weapon.cpp -o CMakeFiles/main.dir/day01/ex06/Weapon.cpp.s
 
 CMakeFiles/main.dir/day01/ex06/main.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/day01/ex06/main.cpp.o: ../day01/ex06/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aliandie/Projects/Piscine-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/main.dir/day01/ex06/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/day01/ex06/main.cpp.o -c /Users/aliandie/Projects/Piscine-CPP/day01/ex06/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iphie/42/CPP/Piscine-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/main.dir/day01/ex06/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/day01/ex06/main.cpp.o -c /home/iphie/42/CPP/Piscine-CPP/day01/ex06/main.cpp
 
 CMakeFiles/main.dir/day01/ex06/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/day01/ex06/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/aliandie/Projects/Piscine-CPP/day01/ex06/main.cpp > CMakeFiles/main.dir/day01/ex06/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/iphie/42/CPP/Piscine-CPP/day01/ex06/main.cpp > CMakeFiles/main.dir/day01/ex06/main.cpp.i
 
 CMakeFiles/main.dir/day01/ex06/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/day01/ex06/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aliandie/Projects/Piscine-CPP/day01/ex06/main.cpp -o CMakeFiles/main.dir/day01/ex06/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/iphie/42/CPP/Piscine-CPP/day01/ex06/main.cpp -o CMakeFiles/main.dir/day01/ex06/main.cpp.s
 
 CMakeFiles/main.dir/day01/ex07/replace.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/day01/ex07/replace.cpp.o: ../day01/ex07/replace.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aliandie/Projects/Piscine-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/main.dir/day01/ex07/replace.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/day01/ex07/replace.cpp.o -c /Users/aliandie/Projects/Piscine-CPP/day01/ex07/replace.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iphie/42/CPP/Piscine-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/main.dir/day01/ex07/replace.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/day01/ex07/replace.cpp.o -c /home/iphie/42/CPP/Piscine-CPP/day01/ex07/replace.cpp
 
 CMakeFiles/main.dir/day01/ex07/replace.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/day01/ex07/replace.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/aliandie/Projects/Piscine-CPP/day01/ex07/replace.cpp > CMakeFiles/main.dir/day01/ex07/replace.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/iphie/42/CPP/Piscine-CPP/day01/ex07/replace.cpp > CMakeFiles/main.dir/day01/ex07/replace.cpp.i
 
 CMakeFiles/main.dir/day01/ex07/replace.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/day01/ex07/replace.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aliandie/Projects/Piscine-CPP/day01/ex07/replace.cpp -o CMakeFiles/main.dir/day01/ex07/replace.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/iphie/42/CPP/Piscine-CPP/day01/ex07/replace.cpp -o CMakeFiles/main.dir/day01/ex07/replace.cpp.s
 
 CMakeFiles/main.dir/day02/ex00/Fixed.class.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/day02/ex00/Fixed.class.cpp.o: ../day02/ex00/Fixed.class.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aliandie/Projects/Piscine-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/main.dir/day02/ex00/Fixed.class.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/day02/ex00/Fixed.class.cpp.o -c /Users/aliandie/Projects/Piscine-CPP/day02/ex00/Fixed.class.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iphie/42/CPP/Piscine-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/main.dir/day02/ex00/Fixed.class.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/day02/ex00/Fixed.class.cpp.o -c /home/iphie/42/CPP/Piscine-CPP/day02/ex00/Fixed.class.cpp
 
 CMakeFiles/main.dir/day02/ex00/Fixed.class.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/day02/ex00/Fixed.class.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/aliandie/Projects/Piscine-CPP/day02/ex00/Fixed.class.cpp > CMakeFiles/main.dir/day02/ex00/Fixed.class.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/iphie/42/CPP/Piscine-CPP/day02/ex00/Fixed.class.cpp > CMakeFiles/main.dir/day02/ex00/Fixed.class.cpp.i
 
 CMakeFiles/main.dir/day02/ex00/Fixed.class.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/day02/ex00/Fixed.class.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aliandie/Projects/Piscine-CPP/day02/ex00/Fixed.class.cpp -o CMakeFiles/main.dir/day02/ex00/Fixed.class.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/iphie/42/CPP/Piscine-CPP/day02/ex00/Fixed.class.cpp -o CMakeFiles/main.dir/day02/ex00/Fixed.class.cpp.s
 
 CMakeFiles/main.dir/day02/ex00/main.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/day02/ex00/main.cpp.o: ../day02/ex00/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aliandie/Projects/Piscine-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/main.dir/day02/ex00/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/day02/ex00/main.cpp.o -c /Users/aliandie/Projects/Piscine-CPP/day02/ex00/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iphie/42/CPP/Piscine-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/main.dir/day02/ex00/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/day02/ex00/main.cpp.o -c /home/iphie/42/CPP/Piscine-CPP/day02/ex00/main.cpp
 
 CMakeFiles/main.dir/day02/ex00/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/day02/ex00/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/aliandie/Projects/Piscine-CPP/day02/ex00/main.cpp > CMakeFiles/main.dir/day02/ex00/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/iphie/42/CPP/Piscine-CPP/day02/ex00/main.cpp > CMakeFiles/main.dir/day02/ex00/main.cpp.i
 
 CMakeFiles/main.dir/day02/ex00/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/day02/ex00/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aliandie/Projects/Piscine-CPP/day02/ex00/main.cpp -o CMakeFiles/main.dir/day02/ex00/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/iphie/42/CPP/Piscine-CPP/day02/ex00/main.cpp -o CMakeFiles/main.dir/day02/ex00/main.cpp.s
+
+CMakeFiles/main.dir/day02/ex01/Fixed.class.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/day02/ex01/Fixed.class.cpp.o: ../day02/ex01/Fixed.class.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iphie/42/CPP/Piscine-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/main.dir/day02/ex01/Fixed.class.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/day02/ex01/Fixed.class.cpp.o -c /home/iphie/42/CPP/Piscine-CPP/day02/ex01/Fixed.class.cpp
+
+CMakeFiles/main.dir/day02/ex01/Fixed.class.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/day02/ex01/Fixed.class.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/iphie/42/CPP/Piscine-CPP/day02/ex01/Fixed.class.cpp > CMakeFiles/main.dir/day02/ex01/Fixed.class.cpp.i
+
+CMakeFiles/main.dir/day02/ex01/Fixed.class.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/day02/ex01/Fixed.class.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/iphie/42/CPP/Piscine-CPP/day02/ex01/Fixed.class.cpp -o CMakeFiles/main.dir/day02/ex01/Fixed.class.cpp.s
+
+CMakeFiles/main.dir/day02/ex01/main.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/day02/ex01/main.cpp.o: ../day02/ex01/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iphie/42/CPP/Piscine-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/main.dir/day02/ex01/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/day02/ex01/main.cpp.o -c /home/iphie/42/CPP/Piscine-CPP/day02/ex01/main.cpp
+
+CMakeFiles/main.dir/day02/ex01/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/day02/ex01/main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/iphie/42/CPP/Piscine-CPP/day02/ex01/main.cpp > CMakeFiles/main.dir/day02/ex01/main.cpp.i
+
+CMakeFiles/main.dir/day02/ex01/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/day02/ex01/main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/iphie/42/CPP/Piscine-CPP/day02/ex01/main.cpp -o CMakeFiles/main.dir/day02/ex01/main.cpp.s
 
 CMakeFiles/main.dir/utils_test/class_instance/Sample.class.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/utils_test/class_instance/Sample.class.cpp.o: ../utils_test/class_instance/Sample.class.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aliandie/Projects/Piscine-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/main.dir/utils_test/class_instance/Sample.class.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/utils_test/class_instance/Sample.class.cpp.o -c /Users/aliandie/Projects/Piscine-CPP/utils_test/class_instance/Sample.class.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iphie/42/CPP/Piscine-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/main.dir/utils_test/class_instance/Sample.class.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/utils_test/class_instance/Sample.class.cpp.o -c /home/iphie/42/CPP/Piscine-CPP/utils_test/class_instance/Sample.class.cpp
 
 CMakeFiles/main.dir/utils_test/class_instance/Sample.class.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/utils_test/class_instance/Sample.class.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/aliandie/Projects/Piscine-CPP/utils_test/class_instance/Sample.class.cpp > CMakeFiles/main.dir/utils_test/class_instance/Sample.class.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/iphie/42/CPP/Piscine-CPP/utils_test/class_instance/Sample.class.cpp > CMakeFiles/main.dir/utils_test/class_instance/Sample.class.cpp.i
 
 CMakeFiles/main.dir/utils_test/class_instance/Sample.class.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/utils_test/class_instance/Sample.class.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aliandie/Projects/Piscine-CPP/utils_test/class_instance/Sample.class.cpp -o CMakeFiles/main.dir/utils_test/class_instance/Sample.class.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/iphie/42/CPP/Piscine-CPP/utils_test/class_instance/Sample.class.cpp -o CMakeFiles/main.dir/utils_test/class_instance/Sample.class.cpp.s
 
 CMakeFiles/main.dir/utils_test/class_instance/main.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/utils_test/class_instance/main.cpp.o: ../utils_test/class_instance/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aliandie/Projects/Piscine-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/main.dir/utils_test/class_instance/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/utils_test/class_instance/main.cpp.o -c /Users/aliandie/Projects/Piscine-CPP/utils_test/class_instance/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iphie/42/CPP/Piscine-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/main.dir/utils_test/class_instance/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/utils_test/class_instance/main.cpp.o -c /home/iphie/42/CPP/Piscine-CPP/utils_test/class_instance/main.cpp
 
 CMakeFiles/main.dir/utils_test/class_instance/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/utils_test/class_instance/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/aliandie/Projects/Piscine-CPP/utils_test/class_instance/main.cpp > CMakeFiles/main.dir/utils_test/class_instance/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/iphie/42/CPP/Piscine-CPP/utils_test/class_instance/main.cpp > CMakeFiles/main.dir/utils_test/class_instance/main.cpp.i
 
 CMakeFiles/main.dir/utils_test/class_instance/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/utils_test/class_instance/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aliandie/Projects/Piscine-CPP/utils_test/class_instance/main.cpp -o CMakeFiles/main.dir/utils_test/class_instance/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/iphie/42/CPP/Piscine-CPP/utils_test/class_instance/main.cpp -o CMakeFiles/main.dir/utils_test/class_instance/main.cpp.s
 
 CMakeFiles/main.dir/utils_test/fileStream/fstream1.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/utils_test/fileStream/fstream1.cpp.o: ../utils_test/fileStream/fstream1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aliandie/Projects/Piscine-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/main.dir/utils_test/fileStream/fstream1.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/utils_test/fileStream/fstream1.cpp.o -c /Users/aliandie/Projects/Piscine-CPP/utils_test/fileStream/fstream1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iphie/42/CPP/Piscine-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/main.dir/utils_test/fileStream/fstream1.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/utils_test/fileStream/fstream1.cpp.o -c /home/iphie/42/CPP/Piscine-CPP/utils_test/fileStream/fstream1.cpp
 
 CMakeFiles/main.dir/utils_test/fileStream/fstream1.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/utils_test/fileStream/fstream1.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/aliandie/Projects/Piscine-CPP/utils_test/fileStream/fstream1.cpp > CMakeFiles/main.dir/utils_test/fileStream/fstream1.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/iphie/42/CPP/Piscine-CPP/utils_test/fileStream/fstream1.cpp > CMakeFiles/main.dir/utils_test/fileStream/fstream1.cpp.i
 
 CMakeFiles/main.dir/utils_test/fileStream/fstream1.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/utils_test/fileStream/fstream1.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aliandie/Projects/Piscine-CPP/utils_test/fileStream/fstream1.cpp -o CMakeFiles/main.dir/utils_test/fileStream/fstream1.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/iphie/42/CPP/Piscine-CPP/utils_test/fileStream/fstream1.cpp -o CMakeFiles/main.dir/utils_test/fileStream/fstream1.cpp.s
 
 CMakeFiles/main.dir/utils_test/function_polymorphism/Sample.class.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/utils_test/function_polymorphism/Sample.class.cpp.o: ../utils_test/function_polymorphism/Sample.class.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aliandie/Projects/Piscine-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/main.dir/utils_test/function_polymorphism/Sample.class.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/utils_test/function_polymorphism/Sample.class.cpp.o -c /Users/aliandie/Projects/Piscine-CPP/utils_test/function_polymorphism/Sample.class.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iphie/42/CPP/Piscine-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/main.dir/utils_test/function_polymorphism/Sample.class.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/utils_test/function_polymorphism/Sample.class.cpp.o -c /home/iphie/42/CPP/Piscine-CPP/utils_test/function_polymorphism/Sample.class.cpp
 
 CMakeFiles/main.dir/utils_test/function_polymorphism/Sample.class.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/utils_test/function_polymorphism/Sample.class.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/aliandie/Projects/Piscine-CPP/utils_test/function_polymorphism/Sample.class.cpp > CMakeFiles/main.dir/utils_test/function_polymorphism/Sample.class.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/iphie/42/CPP/Piscine-CPP/utils_test/function_polymorphism/Sample.class.cpp > CMakeFiles/main.dir/utils_test/function_polymorphism/Sample.class.cpp.i
 
 CMakeFiles/main.dir/utils_test/function_polymorphism/Sample.class.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/utils_test/function_polymorphism/Sample.class.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aliandie/Projects/Piscine-CPP/utils_test/function_polymorphism/Sample.class.cpp -o CMakeFiles/main.dir/utils_test/function_polymorphism/Sample.class.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/iphie/42/CPP/Piscine-CPP/utils_test/function_polymorphism/Sample.class.cpp -o CMakeFiles/main.dir/utils_test/function_polymorphism/Sample.class.cpp.s
 
 CMakeFiles/main.dir/utils_test/function_polymorphism/main.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/utils_test/function_polymorphism/main.cpp.o: ../utils_test/function_polymorphism/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aliandie/Projects/Piscine-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/main.dir/utils_test/function_polymorphism/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/utils_test/function_polymorphism/main.cpp.o -c /Users/aliandie/Projects/Piscine-CPP/utils_test/function_polymorphism/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iphie/42/CPP/Piscine-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/main.dir/utils_test/function_polymorphism/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/utils_test/function_polymorphism/main.cpp.o -c /home/iphie/42/CPP/Piscine-CPP/utils_test/function_polymorphism/main.cpp
 
 CMakeFiles/main.dir/utils_test/function_polymorphism/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/utils_test/function_polymorphism/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/aliandie/Projects/Piscine-CPP/utils_test/function_polymorphism/main.cpp > CMakeFiles/main.dir/utils_test/function_polymorphism/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/iphie/42/CPP/Piscine-CPP/utils_test/function_polymorphism/main.cpp > CMakeFiles/main.dir/utils_test/function_polymorphism/main.cpp.i
 
 CMakeFiles/main.dir/utils_test/function_polymorphism/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/utils_test/function_polymorphism/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aliandie/Projects/Piscine-CPP/utils_test/function_polymorphism/main.cpp -o CMakeFiles/main.dir/utils_test/function_polymorphism/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/iphie/42/CPP/Piscine-CPP/utils_test/function_polymorphism/main.cpp -o CMakeFiles/main.dir/utils_test/function_polymorphism/main.cpp.s
+
+CMakeFiles/main.dir/utils_test/operator_overload/Integer.class.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/utils_test/operator_overload/Integer.class.cpp.o: ../utils_test/operator_overload/Integer.class.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iphie/42/CPP/Piscine-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/main.dir/utils_test/operator_overload/Integer.class.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/utils_test/operator_overload/Integer.class.cpp.o -c /home/iphie/42/CPP/Piscine-CPP/utils_test/operator_overload/Integer.class.cpp
+
+CMakeFiles/main.dir/utils_test/operator_overload/Integer.class.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/utils_test/operator_overload/Integer.class.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/iphie/42/CPP/Piscine-CPP/utils_test/operator_overload/Integer.class.cpp > CMakeFiles/main.dir/utils_test/operator_overload/Integer.class.cpp.i
+
+CMakeFiles/main.dir/utils_test/operator_overload/Integer.class.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/utils_test/operator_overload/Integer.class.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/iphie/42/CPP/Piscine-CPP/utils_test/operator_overload/Integer.class.cpp -o CMakeFiles/main.dir/utils_test/operator_overload/Integer.class.cpp.s
+
+CMakeFiles/main.dir/utils_test/operator_overload/main.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/utils_test/operator_overload/main.cpp.o: ../utils_test/operator_overload/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iphie/42/CPP/Piscine-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/main.dir/utils_test/operator_overload/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/utils_test/operator_overload/main.cpp.o -c /home/iphie/42/CPP/Piscine-CPP/utils_test/operator_overload/main.cpp
+
+CMakeFiles/main.dir/utils_test/operator_overload/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/utils_test/operator_overload/main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/iphie/42/CPP/Piscine-CPP/utils_test/operator_overload/main.cpp > CMakeFiles/main.dir/utils_test/operator_overload/main.cpp.i
+
+CMakeFiles/main.dir/utils_test/operator_overload/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/utils_test/operator_overload/main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/iphie/42/CPP/Piscine-CPP/utils_test/operator_overload/main.cpp -o CMakeFiles/main.dir/utils_test/operator_overload/main.cpp.s
 
 CMakeFiles/main.dir/utils_test/poiteurToMember/main.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/utils_test/poiteurToMember/main.cpp.o: ../utils_test/poiteurToMember/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aliandie/Projects/Piscine-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/main.dir/utils_test/poiteurToMember/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/utils_test/poiteurToMember/main.cpp.o -c /Users/aliandie/Projects/Piscine-CPP/utils_test/poiteurToMember/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iphie/42/CPP/Piscine-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/main.dir/utils_test/poiteurToMember/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/utils_test/poiteurToMember/main.cpp.o -c /home/iphie/42/CPP/Piscine-CPP/utils_test/poiteurToMember/main.cpp
 
 CMakeFiles/main.dir/utils_test/poiteurToMember/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/utils_test/poiteurToMember/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/aliandie/Projects/Piscine-CPP/utils_test/poiteurToMember/main.cpp > CMakeFiles/main.dir/utils_test/poiteurToMember/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/iphie/42/CPP/Piscine-CPP/utils_test/poiteurToMember/main.cpp > CMakeFiles/main.dir/utils_test/poiteurToMember/main.cpp.i
 
 CMakeFiles/main.dir/utils_test/poiteurToMember/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/utils_test/poiteurToMember/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aliandie/Projects/Piscine-CPP/utils_test/poiteurToMember/main.cpp -o CMakeFiles/main.dir/utils_test/poiteurToMember/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/iphie/42/CPP/Piscine-CPP/utils_test/poiteurToMember/main.cpp -o CMakeFiles/main.dir/utils_test/poiteurToMember/main.cpp.s
 
 CMakeFiles/main.dir/utils_test/poiteurToMember/sample.class.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/utils_test/poiteurToMember/sample.class.cpp.o: ../utils_test/poiteurToMember/sample.class.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aliandie/Projects/Piscine-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/main.dir/utils_test/poiteurToMember/sample.class.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/utils_test/poiteurToMember/sample.class.cpp.o -c /Users/aliandie/Projects/Piscine-CPP/utils_test/poiteurToMember/sample.class.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iphie/42/CPP/Piscine-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/main.dir/utils_test/poiteurToMember/sample.class.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/utils_test/poiteurToMember/sample.class.cpp.o -c /home/iphie/42/CPP/Piscine-CPP/utils_test/poiteurToMember/sample.class.cpp
 
 CMakeFiles/main.dir/utils_test/poiteurToMember/sample.class.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/utils_test/poiteurToMember/sample.class.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/aliandie/Projects/Piscine-CPP/utils_test/poiteurToMember/sample.class.cpp > CMakeFiles/main.dir/utils_test/poiteurToMember/sample.class.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/iphie/42/CPP/Piscine-CPP/utils_test/poiteurToMember/sample.class.cpp > CMakeFiles/main.dir/utils_test/poiteurToMember/sample.class.cpp.i
 
 CMakeFiles/main.dir/utils_test/poiteurToMember/sample.class.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/utils_test/poiteurToMember/sample.class.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aliandie/Projects/Piscine-CPP/utils_test/poiteurToMember/sample.class.cpp -o CMakeFiles/main.dir/utils_test/poiteurToMember/sample.class.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/iphie/42/CPP/Piscine-CPP/utils_test/poiteurToMember/sample.class.cpp -o CMakeFiles/main.dir/utils_test/poiteurToMember/sample.class.cpp.s
 
 CMakeFiles/main.dir/utils_test/references/initAndCallRef.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/utils_test/references/initAndCallRef.cpp.o: ../utils_test/references/initAndCallRef.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aliandie/Projects/Piscine-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/main.dir/utils_test/references/initAndCallRef.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/utils_test/references/initAndCallRef.cpp.o -c /Users/aliandie/Projects/Piscine-CPP/utils_test/references/initAndCallRef.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iphie/42/CPP/Piscine-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/main.dir/utils_test/references/initAndCallRef.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/utils_test/references/initAndCallRef.cpp.o -c /home/iphie/42/CPP/Piscine-CPP/utils_test/references/initAndCallRef.cpp
 
 CMakeFiles/main.dir/utils_test/references/initAndCallRef.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/utils_test/references/initAndCallRef.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/aliandie/Projects/Piscine-CPP/utils_test/references/initAndCallRef.cpp > CMakeFiles/main.dir/utils_test/references/initAndCallRef.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/iphie/42/CPP/Piscine-CPP/utils_test/references/initAndCallRef.cpp > CMakeFiles/main.dir/utils_test/references/initAndCallRef.cpp.i
 
 CMakeFiles/main.dir/utils_test/references/initAndCallRef.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/utils_test/references/initAndCallRef.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aliandie/Projects/Piscine-CPP/utils_test/references/initAndCallRef.cpp -o CMakeFiles/main.dir/utils_test/references/initAndCallRef.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/iphie/42/CPP/Piscine-CPP/utils_test/references/initAndCallRef.cpp -o CMakeFiles/main.dir/utils_test/references/initAndCallRef.cpp.s
 
 CMakeFiles/main.dir/utils_test/references/ref1.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/utils_test/references/ref1.cpp.o: ../utils_test/references/ref1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aliandie/Projects/Piscine-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/main.dir/utils_test/references/ref1.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/utils_test/references/ref1.cpp.o -c /Users/aliandie/Projects/Piscine-CPP/utils_test/references/ref1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iphie/42/CPP/Piscine-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/main.dir/utils_test/references/ref1.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/utils_test/references/ref1.cpp.o -c /home/iphie/42/CPP/Piscine-CPP/utils_test/references/ref1.cpp
 
 CMakeFiles/main.dir/utils_test/references/ref1.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/utils_test/references/ref1.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/aliandie/Projects/Piscine-CPP/utils_test/references/ref1.cpp > CMakeFiles/main.dir/utils_test/references/ref1.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/iphie/42/CPP/Piscine-CPP/utils_test/references/ref1.cpp > CMakeFiles/main.dir/utils_test/references/ref1.cpp.i
 
 CMakeFiles/main.dir/utils_test/references/ref1.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/utils_test/references/ref1.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aliandie/Projects/Piscine-CPP/utils_test/references/ref1.cpp -o CMakeFiles/main.dir/utils_test/references/ref1.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/iphie/42/CPP/Piscine-CPP/utils_test/references/ref1.cpp -o CMakeFiles/main.dir/utils_test/references/ref1.cpp.s
 
 CMakeFiles/main.dir/utils_test/references/returnRef.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/utils_test/references/returnRef.cpp.o: ../utils_test/references/returnRef.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aliandie/Projects/Piscine-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/main.dir/utils_test/references/returnRef.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/utils_test/references/returnRef.cpp.o -c /Users/aliandie/Projects/Piscine-CPP/utils_test/references/returnRef.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iphie/42/CPP/Piscine-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/main.dir/utils_test/references/returnRef.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/utils_test/references/returnRef.cpp.o -c /home/iphie/42/CPP/Piscine-CPP/utils_test/references/returnRef.cpp
 
 CMakeFiles/main.dir/utils_test/references/returnRef.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/utils_test/references/returnRef.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/aliandie/Projects/Piscine-CPP/utils_test/references/returnRef.cpp > CMakeFiles/main.dir/utils_test/references/returnRef.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/iphie/42/CPP/Piscine-CPP/utils_test/references/returnRef.cpp > CMakeFiles/main.dir/utils_test/references/returnRef.cpp.i
 
 CMakeFiles/main.dir/utils_test/references/returnRef.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/utils_test/references/returnRef.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aliandie/Projects/Piscine-CPP/utils_test/references/returnRef.cpp -o CMakeFiles/main.dir/utils_test/references/returnRef.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/iphie/42/CPP/Piscine-CPP/utils_test/references/returnRef.cpp -o CMakeFiles/main.dir/utils_test/references/returnRef.cpp.s
 
 CMakeFiles/main.dir/utils_test/references/sendRef.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/utils_test/references/sendRef.cpp.o: ../utils_test/references/sendRef.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aliandie/Projects/Piscine-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/main.dir/utils_test/references/sendRef.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/utils_test/references/sendRef.cpp.o -c /Users/aliandie/Projects/Piscine-CPP/utils_test/references/sendRef.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iphie/42/CPP/Piscine-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object CMakeFiles/main.dir/utils_test/references/sendRef.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/utils_test/references/sendRef.cpp.o -c /home/iphie/42/CPP/Piscine-CPP/utils_test/references/sendRef.cpp
 
 CMakeFiles/main.dir/utils_test/references/sendRef.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/utils_test/references/sendRef.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/aliandie/Projects/Piscine-CPP/utils_test/references/sendRef.cpp > CMakeFiles/main.dir/utils_test/references/sendRef.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/iphie/42/CPP/Piscine-CPP/utils_test/references/sendRef.cpp > CMakeFiles/main.dir/utils_test/references/sendRef.cpp.i
 
 CMakeFiles/main.dir/utils_test/references/sendRef.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/utils_test/references/sendRef.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aliandie/Projects/Piscine-CPP/utils_test/references/sendRef.cpp -o CMakeFiles/main.dir/utils_test/references/sendRef.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/iphie/42/CPP/Piscine-CPP/utils_test/references/sendRef.cpp -o CMakeFiles/main.dir/utils_test/references/sendRef.cpp.s
 
 # Object files for target main
 main_OBJECTS = \
-"CMakeFiles/main.dir/CMakeFiles/3.14.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.o" \
+"CMakeFiles/main.dir/CMakeFiles/3.14.3/CompilerIdCXX/CMakeCXXCompilerId.cpp.o" \
 "CMakeFiles/main.dir/day00/ex00/megaphone.cpp.o" \
 "CMakeFiles/main.dir/day00/ex01/phone_book.class.cpp.o" \
 "CMakeFiles/main.dir/day00/ex01/phone_book.cpp.o" \
@@ -552,11 +604,15 @@ main_OBJECTS = \
 "CMakeFiles/main.dir/day01/ex07/replace.cpp.o" \
 "CMakeFiles/main.dir/day02/ex00/Fixed.class.cpp.o" \
 "CMakeFiles/main.dir/day02/ex00/main.cpp.o" \
+"CMakeFiles/main.dir/day02/ex01/Fixed.class.cpp.o" \
+"CMakeFiles/main.dir/day02/ex01/main.cpp.o" \
 "CMakeFiles/main.dir/utils_test/class_instance/Sample.class.cpp.o" \
 "CMakeFiles/main.dir/utils_test/class_instance/main.cpp.o" \
 "CMakeFiles/main.dir/utils_test/fileStream/fstream1.cpp.o" \
 "CMakeFiles/main.dir/utils_test/function_polymorphism/Sample.class.cpp.o" \
 "CMakeFiles/main.dir/utils_test/function_polymorphism/main.cpp.o" \
+"CMakeFiles/main.dir/utils_test/operator_overload/Integer.class.cpp.o" \
+"CMakeFiles/main.dir/utils_test/operator_overload/main.cpp.o" \
 "CMakeFiles/main.dir/utils_test/poiteurToMember/main.cpp.o" \
 "CMakeFiles/main.dir/utils_test/poiteurToMember/sample.class.cpp.o" \
 "CMakeFiles/main.dir/utils_test/references/initAndCallRef.cpp.o" \
@@ -567,7 +623,7 @@ main_OBJECTS = \
 # External object files for target main
 main_EXTERNAL_OBJECTS =
 
-main: CMakeFiles/main.dir/CMakeFiles/3.14.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.o
+main: CMakeFiles/main.dir/CMakeFiles/3.14.3/CompilerIdCXX/CMakeCXXCompilerId.cpp.o
 main: CMakeFiles/main.dir/day00/ex00/megaphone.cpp.o
 main: CMakeFiles/main.dir/day00/ex01/phone_book.class.cpp.o
 main: CMakeFiles/main.dir/day00/ex01/phone_book.cpp.o
@@ -592,11 +648,15 @@ main: CMakeFiles/main.dir/day01/ex06/main.cpp.o
 main: CMakeFiles/main.dir/day01/ex07/replace.cpp.o
 main: CMakeFiles/main.dir/day02/ex00/Fixed.class.cpp.o
 main: CMakeFiles/main.dir/day02/ex00/main.cpp.o
+main: CMakeFiles/main.dir/day02/ex01/Fixed.class.cpp.o
+main: CMakeFiles/main.dir/day02/ex01/main.cpp.o
 main: CMakeFiles/main.dir/utils_test/class_instance/Sample.class.cpp.o
 main: CMakeFiles/main.dir/utils_test/class_instance/main.cpp.o
 main: CMakeFiles/main.dir/utils_test/fileStream/fstream1.cpp.o
 main: CMakeFiles/main.dir/utils_test/function_polymorphism/Sample.class.cpp.o
 main: CMakeFiles/main.dir/utils_test/function_polymorphism/main.cpp.o
+main: CMakeFiles/main.dir/utils_test/operator_overload/Integer.class.cpp.o
+main: CMakeFiles/main.dir/utils_test/operator_overload/main.cpp.o
 main: CMakeFiles/main.dir/utils_test/poiteurToMember/main.cpp.o
 main: CMakeFiles/main.dir/utils_test/poiteurToMember/sample.class.cpp.o
 main: CMakeFiles/main.dir/utils_test/references/initAndCallRef.cpp.o
@@ -605,7 +665,7 @@ main: CMakeFiles/main.dir/utils_test/references/returnRef.cpp.o
 main: CMakeFiles/main.dir/utils_test/references/sendRef.cpp.o
 main: CMakeFiles/main.dir/build.make
 main: CMakeFiles/main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/aliandie/Projects/Piscine-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Linking CXX executable main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/iphie/42/CPP/Piscine-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Linking CXX executable main"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/main.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -618,6 +678,6 @@ CMakeFiles/main.dir/clean:
 .PHONY : CMakeFiles/main.dir/clean
 
 CMakeFiles/main.dir/depend:
-	cd /Users/aliandie/Projects/Piscine-CPP/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/aliandie/Projects/Piscine-CPP /Users/aliandie/Projects/Piscine-CPP /Users/aliandie/Projects/Piscine-CPP/cmake-build-debug /Users/aliandie/Projects/Piscine-CPP/cmake-build-debug /Users/aliandie/Projects/Piscine-CPP/cmake-build-debug/CMakeFiles/main.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/iphie/42/CPP/Piscine-CPP/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/iphie/42/CPP/Piscine-CPP /home/iphie/42/CPP/Piscine-CPP /home/iphie/42/CPP/Piscine-CPP/cmake-build-debug /home/iphie/42/CPP/Piscine-CPP/cmake-build-debug /home/iphie/42/CPP/Piscine-CPP/cmake-build-debug/CMakeFiles/main.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/main.dir/depend
 

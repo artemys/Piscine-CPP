@@ -1,0 +1,19 @@
+
+
+notation prefix : + 1 1 
+(aussi appeler notation focntionnel car:
++ (1,1) = ressemble a une fct)
+
+si on pousse le delire :
+on peut faire la meme avec une notation 
+de fonction memebre ex :
+
+1.+(1);
+
+
+notation infix : 1 + 1 
+(infix because operator "+" is in)
+ 
+notation postfix : 1 1 +
+(utilisation en calcule de pile :
+push un 1, push un autre 1 et effectu le +)
