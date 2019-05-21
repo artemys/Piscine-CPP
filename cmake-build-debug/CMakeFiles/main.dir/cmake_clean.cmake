@@ -26,6 +26,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/main.dir/day02/ex00/main.cpp.o"
   "CMakeFiles/main.dir/day02/ex01/Fixed.class.cpp.o"
   "CMakeFiles/main.dir/day02/ex01/main.cpp.o"
+  "CMakeFiles/main.dir/day03/ex00/FragTrap.cpp.o"
+  "CMakeFiles/main.dir/day03/ex00/main.cpp.o"
   "CMakeFiles/main.dir/utils_test/class_instance/Sample.class.cpp.o"
   "CMakeFiles/main.dir/utils_test/class_instance/main.cpp.o"
   "CMakeFiles/main.dir/utils_test/fileStream/fstream1.cpp.o"

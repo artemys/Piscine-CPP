@@ -226,6 +226,15 @@
 		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/day02/ex01/main.cpp">
 			<Option target="main"/>
 		</Unit>
+		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/day03/ex00/FragTrap.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/day03/ex00/FragTrap.hpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/day03/ex00/main.cpp">
+			<Option target="main"/>
+		</Unit>
 		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/utils_test/class_instance/Sample.class.cpp">
 			<Option target="main"/>
 		</Unit>

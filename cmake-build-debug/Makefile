@@ -852,6 +852,60 @@ day02/ex01/main.cpp.s:
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/day02/ex01/main.cpp.s
 .PHONY : day02/ex01/main.cpp.s
 
+day03/ex00/FragTrap.o: day03/ex00/FragTrap.cpp.o
+
+.PHONY : day03/ex00/FragTrap.o
+
+# target to build an object file
+day03/ex00/FragTrap.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/day03/ex00/FragTrap.cpp.o
+.PHONY : day03/ex00/FragTrap.cpp.o
+
+day03/ex00/FragTrap.i: day03/ex00/FragTrap.cpp.i
+
+.PHONY : day03/ex00/FragTrap.i
+
+# target to preprocess a source file
+day03/ex00/FragTrap.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/day03/ex00/FragTrap.cpp.i
+.PHONY : day03/ex00/FragTrap.cpp.i
+
+day03/ex00/FragTrap.s: day03/ex00/FragTrap.cpp.s
+
+.PHONY : day03/ex00/FragTrap.s
+
+# target to generate assembly for a file
+day03/ex00/FragTrap.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/day03/ex00/FragTrap.cpp.s
+.PHONY : day03/ex00/FragTrap.cpp.s
+
+day03/ex00/main.o: day03/ex00/main.cpp.o
+
+.PHONY : day03/ex00/main.o
+
+# target to build an object file
+day03/ex00/main.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/day03/ex00/main.cpp.o
+.PHONY : day03/ex00/main.cpp.o
+
+day03/ex00/main.i: day03/ex00/main.cpp.i
+
+.PHONY : day03/ex00/main.i
+
+# target to preprocess a source file
+day03/ex00/main.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/day03/ex00/main.cpp.i
+.PHONY : day03/ex00/main.cpp.i
+
+day03/ex00/main.s: day03/ex00/main.cpp.s
+
+.PHONY : day03/ex00/main.s
+
+# target to generate assembly for a file
+day03/ex00/main.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/day03/ex00/main.cpp.s
+.PHONY : day03/ex00/main.cpp.s
+
 utils_test/class_instance/Sample.class.o: utils_test/class_instance/Sample.class.cpp.o
 
 .PHONY : utils_test/class_instance/Sample.class.o
@@ -1293,6 +1347,12 @@ help:
 	@echo "... day02/ex01/main.o"
 	@echo "... day02/ex01/main.i"
 	@echo "... day02/ex01/main.s"
+	@echo "... day03/ex00/FragTrap.o"
+	@echo "... day03/ex00/FragTrap.i"
+	@echo "... day03/ex00/FragTrap.s"
+	@echo "... day03/ex00/main.o"
+	@echo "... day03/ex00/main.i"
+	@echo "... day03/ex00/main.s"
 	@echo "... utils_test/class_instance/Sample.class.o"
 	@echo "... utils_test/class_instance/Sample.class.i"
 	@echo "... utils_test/class_instance/Sample.class.s"

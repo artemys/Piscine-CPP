@@ -1,4 +1,5 @@
 #include "Fixed.class.hpp"
+#include <cmath>
 Fixed::Fixed(): _fixedPoint(0) {
     std::cout << "Default constructor called" << std::endl;
 
@@ -18,7 +19,6 @@ Fixed & Fixed::operator=(Fixed const &rhs) {
 Fixed::Fixed(Fixed const &rhs) {
     std::cout << "Copy constructor called" << std::endl;
     *this = rhs;
-
 }
 
 int Fixed::getRawBits(void) const {

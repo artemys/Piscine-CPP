@@ -34,3 +34,15 @@ void Fixed::setRawBits(int const raw) {
     _fixedPoint = raw;
 }
 
+Fixed::Fixed(float const) {
+
+}
+
+float Fixed::toFloat(void) const {
+    return 0;
+}
+
+int Fixed::toInt(void) const {
+    return 0;
+}
+

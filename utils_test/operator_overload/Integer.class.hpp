@@ -7,13 +7,12 @@ public:
 	Integer(int const n);
 	~Integer();
 
-	int getvalue(void) const;
+	int getValue(void) const;
 
 	Integer & operator=(Integer const & rhs);
 	Integer operator+(Integer const & rhs) const;
 private:
-	int _n
-;
+	int _n;
 	
 };
 std::ostream & operator<<(std::ostream & o, Integer const & rhs);

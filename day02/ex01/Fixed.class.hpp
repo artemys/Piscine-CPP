@@ -6,9 +6,16 @@ class Fixed{
 public:
     Fixed();
     ~Fixed();
+
     Fixed(Fixed const &);
-    Fixed(int);
     Fixed & operator=(Fixed const & rhs);
+
+    Fixed(int const);
+    Fixed(float const);
+
+    float toFloat(void) const;
+    int toInt(void) const;
+
     int getRawBits(void) const;
     void setRawBits(int const raw);
 
