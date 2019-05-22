@@ -906,6 +906,33 @@ day03/ex00/main.cpp.s:
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/day03/ex00/main.cpp.s
 .PHONY : day03/ex00/main.cpp.s
 
+utils_test/cannonical_Form/canonicalForm.o: utils_test/cannonical_Form/canonicalForm.cpp.o
+
+.PHONY : utils_test/cannonical_Form/canonicalForm.o
+
+# target to build an object file
+utils_test/cannonical_Form/canonicalForm.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/utils_test/cannonical_Form/canonicalForm.cpp.o
+.PHONY : utils_test/cannonical_Form/canonicalForm.cpp.o
+
+utils_test/cannonical_Form/canonicalForm.i: utils_test/cannonical_Form/canonicalForm.cpp.i
+
+.PHONY : utils_test/cannonical_Form/canonicalForm.i
+
+# target to preprocess a source file
+utils_test/cannonical_Form/canonicalForm.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/utils_test/cannonical_Form/canonicalForm.cpp.i
+.PHONY : utils_test/cannonical_Form/canonicalForm.cpp.i
+
+utils_test/cannonical_Form/canonicalForm.s: utils_test/cannonical_Form/canonicalForm.cpp.s
+
+.PHONY : utils_test/cannonical_Form/canonicalForm.s
+
+# target to generate assembly for a file
+utils_test/cannonical_Form/canonicalForm.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/utils_test/cannonical_Form/canonicalForm.cpp.s
+.PHONY : utils_test/cannonical_Form/canonicalForm.cpp.s
+
 utils_test/class_instance/Sample.class.o: utils_test/class_instance/Sample.class.cpp.o
 
 .PHONY : utils_test/class_instance/Sample.class.o
@@ -1353,6 +1380,9 @@ help:
 	@echo "... day03/ex00/main.o"
 	@echo "... day03/ex00/main.i"
 	@echo "... day03/ex00/main.s"
+	@echo "... utils_test/cannonical_Form/canonicalForm.o"
+	@echo "... utils_test/cannonical_Form/canonicalForm.i"
+	@echo "... utils_test/cannonical_Form/canonicalForm.s"
 	@echo "... utils_test/class_instance/Sample.class.o"
 	@echo "... utils_test/class_instance/Sample.class.i"
 	@echo "... utils_test/class_instance/Sample.class.s"

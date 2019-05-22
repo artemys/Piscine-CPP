@@ -434,9 +434,22 @@ CMakeFiles/main.dir/day03/ex00/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/day03/ex00/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/iphie/42/CPP/Piscine-CPP/day03/ex00/main.cpp -o CMakeFiles/main.dir/day03/ex00/main.cpp.s
 
+CMakeFiles/main.dir/utils_test/cannonical_Form/canonicalForm.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/utils_test/cannonical_Form/canonicalForm.cpp.o: ../utils_test/cannonical_Form/canonicalForm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iphie/42/CPP/Piscine-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/main.dir/utils_test/cannonical_Form/canonicalForm.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/utils_test/cannonical_Form/canonicalForm.cpp.o -c /home/iphie/42/CPP/Piscine-CPP/utils_test/cannonical_Form/canonicalForm.cpp
+
+CMakeFiles/main.dir/utils_test/cannonical_Form/canonicalForm.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/utils_test/cannonical_Form/canonicalForm.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/iphie/42/CPP/Piscine-CPP/utils_test/cannonical_Form/canonicalForm.cpp > CMakeFiles/main.dir/utils_test/cannonical_Form/canonicalForm.cpp.i
+
+CMakeFiles/main.dir/utils_test/cannonical_Form/canonicalForm.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/utils_test/cannonical_Form/canonicalForm.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/iphie/42/CPP/Piscine-CPP/utils_test/cannonical_Form/canonicalForm.cpp -o CMakeFiles/main.dir/utils_test/cannonical_Form/canonicalForm.cpp.s
+
 CMakeFiles/main.dir/utils_test/class_instance/Sample.class.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/utils_test/class_instance/Sample.class.cpp.o: ../utils_test/class_instance/Sample.class.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iphie/42/CPP/Piscine-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/main.dir/utils_test/class_instance/Sample.class.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iphie/42/CPP/Piscine-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/main.dir/utils_test/class_instance/Sample.class.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/utils_test/class_instance/Sample.class.cpp.o -c /home/iphie/42/CPP/Piscine-CPP/utils_test/class_instance/Sample.class.cpp
 
 CMakeFiles/main.dir/utils_test/class_instance/Sample.class.cpp.i: cmake_force
@@ -449,7 +462,7 @@ CMakeFiles/main.dir/utils_test/class_instance/Sample.class.cpp.s: cmake_force
 
 CMakeFiles/main.dir/utils_test/class_instance/main.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/utils_test/class_instance/main.cpp.o: ../utils_test/class_instance/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iphie/42/CPP/Piscine-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/main.dir/utils_test/class_instance/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iphie/42/CPP/Piscine-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/main.dir/utils_test/class_instance/main.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/utils_test/class_instance/main.cpp.o -c /home/iphie/42/CPP/Piscine-CPP/utils_test/class_instance/main.cpp
 
 CMakeFiles/main.dir/utils_test/class_instance/main.cpp.i: cmake_force
@@ -462,7 +475,7 @@ CMakeFiles/main.dir/utils_test/class_instance/main.cpp.s: cmake_force
 
 CMakeFiles/main.dir/utils_test/fileStream/fstream1.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/utils_test/fileStream/fstream1.cpp.o: ../utils_test/fileStream/fstream1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iphie/42/CPP/Piscine-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/main.dir/utils_test/fileStream/fstream1.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iphie/42/CPP/Piscine-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/main.dir/utils_test/fileStream/fstream1.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/utils_test/fileStream/fstream1.cpp.o -c /home/iphie/42/CPP/Piscine-CPP/utils_test/fileStream/fstream1.cpp
 
 CMakeFiles/main.dir/utils_test/fileStream/fstream1.cpp.i: cmake_force
@@ -475,7 +488,7 @@ CMakeFiles/main.dir/utils_test/fileStream/fstream1.cpp.s: cmake_force
 
 CMakeFiles/main.dir/utils_test/function_polymorphism/Sample.class.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/utils_test/function_polymorphism/Sample.class.cpp.o: ../utils_test/function_polymorphism/Sample.class.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iphie/42/CPP/Piscine-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/main.dir/utils_test/function_polymorphism/Sample.class.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iphie/42/CPP/Piscine-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/main.dir/utils_test/function_polymorphism/Sample.class.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/utils_test/function_polymorphism/Sample.class.cpp.o -c /home/iphie/42/CPP/Piscine-CPP/utils_test/function_polymorphism/Sample.class.cpp
 
 CMakeFiles/main.dir/utils_test/function_polymorphism/Sample.class.cpp.i: cmake_force
@@ -488,7 +501,7 @@ CMakeFiles/main.dir/utils_test/function_polymorphism/Sample.class.cpp.s: cmake_f
 
 CMakeFiles/main.dir/utils_test/function_polymorphism/main.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/utils_test/function_polymorphism/main.cpp.o: ../utils_test/function_polymorphism/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iphie/42/CPP/Piscine-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/main.dir/utils_test/function_polymorphism/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iphie/42/CPP/Piscine-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/main.dir/utils_test/function_polymorphism/main.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/utils_test/function_polymorphism/main.cpp.o -c /home/iphie/42/CPP/Piscine-CPP/utils_test/function_polymorphism/main.cpp
 
 CMakeFiles/main.dir/utils_test/function_polymorphism/main.cpp.i: cmake_force
@@ -501,7 +514,7 @@ CMakeFiles/main.dir/utils_test/function_polymorphism/main.cpp.s: cmake_force
 
 CMakeFiles/main.dir/utils_test/operator_overload/Integer.class.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/utils_test/operator_overload/Integer.class.cpp.o: ../utils_test/operator_overload/Integer.class.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iphie/42/CPP/Piscine-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/main.dir/utils_test/operator_overload/Integer.class.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iphie/42/CPP/Piscine-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/main.dir/utils_test/operator_overload/Integer.class.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/utils_test/operator_overload/Integer.class.cpp.o -c /home/iphie/42/CPP/Piscine-CPP/utils_test/operator_overload/Integer.class.cpp
 
 CMakeFiles/main.dir/utils_test/operator_overload/Integer.class.cpp.i: cmake_force
@@ -514,7 +527,7 @@ CMakeFiles/main.dir/utils_test/operator_overload/Integer.class.cpp.s: cmake_forc
 
 CMakeFiles/main.dir/utils_test/operator_overload/main.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/utils_test/operator_overload/main.cpp.o: ../utils_test/operator_overload/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iphie/42/CPP/Piscine-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/main.dir/utils_test/operator_overload/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iphie/42/CPP/Piscine-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/main.dir/utils_test/operator_overload/main.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/utils_test/operator_overload/main.cpp.o -c /home/iphie/42/CPP/Piscine-CPP/utils_test/operator_overload/main.cpp
 
 CMakeFiles/main.dir/utils_test/operator_overload/main.cpp.i: cmake_force
@@ -527,7 +540,7 @@ CMakeFiles/main.dir/utils_test/operator_overload/main.cpp.s: cmake_force
 
 CMakeFiles/main.dir/utils_test/poiteurToMember/main.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/utils_test/poiteurToMember/main.cpp.o: ../utils_test/poiteurToMember/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iphie/42/CPP/Piscine-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/main.dir/utils_test/poiteurToMember/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iphie/42/CPP/Piscine-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/main.dir/utils_test/poiteurToMember/main.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/utils_test/poiteurToMember/main.cpp.o -c /home/iphie/42/CPP/Piscine-CPP/utils_test/poiteurToMember/main.cpp
 
 CMakeFiles/main.dir/utils_test/poiteurToMember/main.cpp.i: cmake_force
@@ -540,7 +553,7 @@ CMakeFiles/main.dir/utils_test/poiteurToMember/main.cpp.s: cmake_force
 
 CMakeFiles/main.dir/utils_test/poiteurToMember/sample.class.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/utils_test/poiteurToMember/sample.class.cpp.o: ../utils_test/poiteurToMember/sample.class.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iphie/42/CPP/Piscine-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/main.dir/utils_test/poiteurToMember/sample.class.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iphie/42/CPP/Piscine-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/main.dir/utils_test/poiteurToMember/sample.class.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/utils_test/poiteurToMember/sample.class.cpp.o -c /home/iphie/42/CPP/Piscine-CPP/utils_test/poiteurToMember/sample.class.cpp
 
 CMakeFiles/main.dir/utils_test/poiteurToMember/sample.class.cpp.i: cmake_force
@@ -553,7 +566,7 @@ CMakeFiles/main.dir/utils_test/poiteurToMember/sample.class.cpp.s: cmake_force
 
 CMakeFiles/main.dir/utils_test/references/initAndCallRef.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/utils_test/references/initAndCallRef.cpp.o: ../utils_test/references/initAndCallRef.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iphie/42/CPP/Piscine-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/main.dir/utils_test/references/initAndCallRef.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iphie/42/CPP/Piscine-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object CMakeFiles/main.dir/utils_test/references/initAndCallRef.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/utils_test/references/initAndCallRef.cpp.o -c /home/iphie/42/CPP/Piscine-CPP/utils_test/references/initAndCallRef.cpp
 
 CMakeFiles/main.dir/utils_test/references/initAndCallRef.cpp.i: cmake_force
@@ -566,7 +579,7 @@ CMakeFiles/main.dir/utils_test/references/initAndCallRef.cpp.s: cmake_force
 
 CMakeFiles/main.dir/utils_test/references/ref1.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/utils_test/references/ref1.cpp.o: ../utils_test/references/ref1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iphie/42/CPP/Piscine-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object CMakeFiles/main.dir/utils_test/references/ref1.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iphie/42/CPP/Piscine-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object CMakeFiles/main.dir/utils_test/references/ref1.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/utils_test/references/ref1.cpp.o -c /home/iphie/42/CPP/Piscine-CPP/utils_test/references/ref1.cpp
 
 CMakeFiles/main.dir/utils_test/references/ref1.cpp.i: cmake_force
@@ -579,7 +592,7 @@ CMakeFiles/main.dir/utils_test/references/ref1.cpp.s: cmake_force
 
 CMakeFiles/main.dir/utils_test/references/returnRef.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/utils_test/references/returnRef.cpp.o: ../utils_test/references/returnRef.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iphie/42/CPP/Piscine-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object CMakeFiles/main.dir/utils_test/references/returnRef.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iphie/42/CPP/Piscine-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object CMakeFiles/main.dir/utils_test/references/returnRef.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/utils_test/references/returnRef.cpp.o -c /home/iphie/42/CPP/Piscine-CPP/utils_test/references/returnRef.cpp
 
 CMakeFiles/main.dir/utils_test/references/returnRef.cpp.i: cmake_force
@@ -592,7 +605,7 @@ CMakeFiles/main.dir/utils_test/references/returnRef.cpp.s: cmake_force
 
 CMakeFiles/main.dir/utils_test/references/sendRef.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/utils_test/references/sendRef.cpp.o: ../utils_test/references/sendRef.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iphie/42/CPP/Piscine-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object CMakeFiles/main.dir/utils_test/references/sendRef.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iphie/42/CPP/Piscine-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object CMakeFiles/main.dir/utils_test/references/sendRef.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/utils_test/references/sendRef.cpp.o -c /home/iphie/42/CPP/Piscine-CPP/utils_test/references/sendRef.cpp
 
 CMakeFiles/main.dir/utils_test/references/sendRef.cpp.i: cmake_force
@@ -634,6 +647,7 @@ main_OBJECTS = \
 "CMakeFiles/main.dir/day02/ex01/main.cpp.o" \
 "CMakeFiles/main.dir/day03/ex00/FragTrap.cpp.o" \
 "CMakeFiles/main.dir/day03/ex00/main.cpp.o" \
+"CMakeFiles/main.dir/utils_test/cannonical_Form/canonicalForm.cpp.o" \
 "CMakeFiles/main.dir/utils_test/class_instance/Sample.class.cpp.o" \
 "CMakeFiles/main.dir/utils_test/class_instance/main.cpp.o" \
 "CMakeFiles/main.dir/utils_test/fileStream/fstream1.cpp.o" \
@@ -680,6 +694,7 @@ main: CMakeFiles/main.dir/day02/ex01/Fixed.class.cpp.o
 main: CMakeFiles/main.dir/day02/ex01/main.cpp.o
 main: CMakeFiles/main.dir/day03/ex00/FragTrap.cpp.o
 main: CMakeFiles/main.dir/day03/ex00/main.cpp.o
+main: CMakeFiles/main.dir/utils_test/cannonical_Form/canonicalForm.cpp.o
 main: CMakeFiles/main.dir/utils_test/class_instance/Sample.class.cpp.o
 main: CMakeFiles/main.dir/utils_test/class_instance/main.cpp.o
 main: CMakeFiles/main.dir/utils_test/fileStream/fstream1.cpp.o
@@ -695,7 +710,7 @@ main: CMakeFiles/main.dir/utils_test/references/returnRef.cpp.o
 main: CMakeFiles/main.dir/utils_test/references/sendRef.cpp.o
 main: CMakeFiles/main.dir/build.make
 main: CMakeFiles/main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/iphie/42/CPP/Piscine-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Linking CXX executable main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/iphie/42/CPP/Piscine-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Linking CXX executable main"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/main.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

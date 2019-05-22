@@ -121,8 +121,12 @@ void FragTrap::vaulthunter_dot_exe(std::string const &target) {
                      << " attack on "
                      << target
                      << std::endl;
-
         }
+}
 
+FragTrap::FragTrap(FragTrap const &src) {
+    std::cout << "Copy constructor called" << std::endl;
+    *this = src;
+    return;
 };
 

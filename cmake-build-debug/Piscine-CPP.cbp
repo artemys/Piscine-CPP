@@ -235,6 +235,12 @@
 		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/day03/ex00/main.cpp">
 			<Option target="main"/>
 		</Unit>
+		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/utils_test/cannonical_Form/canonicalForm.class.hpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/utils_test/cannonical_Form/canonicalForm.cpp">
+			<Option target="main"/>
+		</Unit>
 		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/utils_test/class_instance/Sample.class.cpp">
 			<Option target="main"/>
 		</Unit>
