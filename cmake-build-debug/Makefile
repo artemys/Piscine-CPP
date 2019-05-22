@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/iphie/clion-2019.1.3/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake
 
 # The command to remove a file.
-RM = /home/iphie/clion-2019.1.3/bin/cmake/linux/bin/cmake -E remove -f
+RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/iphie/42/CPP/Piscine-CPP
+CMAKE_SOURCE_DIR = /Users/aliandie/Projects/Piscine-CPP
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/iphie/42/CPP/Piscine-CPP/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/aliandie/Projects/Piscine-CPP/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/iphie/42/CPP/Piscine-CPP/cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/iphie/clion-2019.1.3/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/iphie/clion-2019.1.3/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/iphie/42/CPP/Piscine-CPP/cmake-build-debug/CMakeFiles /home/iphie/42/CPP/Piscine-CPP/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aliandie/Projects/Piscine-CPP/cmake-build-debug/CMakeFiles /Users/aliandie/Projects/Piscine-CPP/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/iphie/42/CPP/Piscine-CPP/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aliandie/Projects/Piscine-CPP/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,32 +123,32 @@ main/fast:
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
 
-CMakeFiles/3.14.3/CompilerIdCXX/CMakeCXXCompilerId.o: CMakeFiles/3.14.3/CompilerIdCXX/CMakeCXXCompilerId.cpp.o
+CMakeFiles/3.14.2/CompilerIdCXX/CMakeCXXCompilerId.o: CMakeFiles/3.14.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.o
 
-.PHONY : CMakeFiles/3.14.3/CompilerIdCXX/CMakeCXXCompilerId.o
+.PHONY : CMakeFiles/3.14.2/CompilerIdCXX/CMakeCXXCompilerId.o
 
 # target to build an object file
-CMakeFiles/3.14.3/CompilerIdCXX/CMakeCXXCompilerId.cpp.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/CMakeFiles/3.14.3/CompilerIdCXX/CMakeCXXCompilerId.cpp.o
-.PHONY : CMakeFiles/3.14.3/CompilerIdCXX/CMakeCXXCompilerId.cpp.o
+CMakeFiles/3.14.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/CMakeFiles/3.14.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.o
+.PHONY : CMakeFiles/3.14.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.o
 
-CMakeFiles/3.14.3/CompilerIdCXX/CMakeCXXCompilerId.i: CMakeFiles/3.14.3/CompilerIdCXX/CMakeCXXCompilerId.cpp.i
+CMakeFiles/3.14.2/CompilerIdCXX/CMakeCXXCompilerId.i: CMakeFiles/3.14.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.i
 
-.PHONY : CMakeFiles/3.14.3/CompilerIdCXX/CMakeCXXCompilerId.i
+.PHONY : CMakeFiles/3.14.2/CompilerIdCXX/CMakeCXXCompilerId.i
 
 # target to preprocess a source file
-CMakeFiles/3.14.3/CompilerIdCXX/CMakeCXXCompilerId.cpp.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/CMakeFiles/3.14.3/CompilerIdCXX/CMakeCXXCompilerId.cpp.i
-.PHONY : CMakeFiles/3.14.3/CompilerIdCXX/CMakeCXXCompilerId.cpp.i
+CMakeFiles/3.14.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/CMakeFiles/3.14.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.i
+.PHONY : CMakeFiles/3.14.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.i
 
-CMakeFiles/3.14.3/CompilerIdCXX/CMakeCXXCompilerId.s: CMakeFiles/3.14.3/CompilerIdCXX/CMakeCXXCompilerId.cpp.s
+CMakeFiles/3.14.2/CompilerIdCXX/CMakeCXXCompilerId.s: CMakeFiles/3.14.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.s
 
-.PHONY : CMakeFiles/3.14.3/CompilerIdCXX/CMakeCXXCompilerId.s
+.PHONY : CMakeFiles/3.14.2/CompilerIdCXX/CMakeCXXCompilerId.s
 
 # target to generate assembly for a file
-CMakeFiles/3.14.3/CompilerIdCXX/CMakeCXXCompilerId.cpp.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/CMakeFiles/3.14.3/CompilerIdCXX/CMakeCXXCompilerId.cpp.s
-.PHONY : CMakeFiles/3.14.3/CompilerIdCXX/CMakeCXXCompilerId.cpp.s
+CMakeFiles/3.14.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/CMakeFiles/3.14.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.s
+.PHONY : CMakeFiles/3.14.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.s
 
 day00/ex00/megaphone.o: day00/ex00/megaphone.cpp.o
 
@@ -906,32 +906,518 @@ day03/ex00/main.cpp.s:
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/day03/ex00/main.cpp.s
 .PHONY : day03/ex00/main.cpp.s
 
-utils_test/cannonical_Form/canonicalForm.o: utils_test/cannonical_Form/canonicalForm.cpp.o
+day03/ex01/FragTrap.o: day03/ex01/FragTrap.cpp.o
 
-.PHONY : utils_test/cannonical_Form/canonicalForm.o
+.PHONY : day03/ex01/FragTrap.o
 
 # target to build an object file
-utils_test/cannonical_Form/canonicalForm.cpp.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/utils_test/cannonical_Form/canonicalForm.cpp.o
-.PHONY : utils_test/cannonical_Form/canonicalForm.cpp.o
+day03/ex01/FragTrap.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/day03/ex01/FragTrap.cpp.o
+.PHONY : day03/ex01/FragTrap.cpp.o
 
-utils_test/cannonical_Form/canonicalForm.i: utils_test/cannonical_Form/canonicalForm.cpp.i
+day03/ex01/FragTrap.i: day03/ex01/FragTrap.cpp.i
 
-.PHONY : utils_test/cannonical_Form/canonicalForm.i
+.PHONY : day03/ex01/FragTrap.i
 
 # target to preprocess a source file
-utils_test/cannonical_Form/canonicalForm.cpp.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/utils_test/cannonical_Form/canonicalForm.cpp.i
-.PHONY : utils_test/cannonical_Form/canonicalForm.cpp.i
+day03/ex01/FragTrap.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/day03/ex01/FragTrap.cpp.i
+.PHONY : day03/ex01/FragTrap.cpp.i
 
-utils_test/cannonical_Form/canonicalForm.s: utils_test/cannonical_Form/canonicalForm.cpp.s
+day03/ex01/FragTrap.s: day03/ex01/FragTrap.cpp.s
 
-.PHONY : utils_test/cannonical_Form/canonicalForm.s
+.PHONY : day03/ex01/FragTrap.s
 
 # target to generate assembly for a file
-utils_test/cannonical_Form/canonicalForm.cpp.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/utils_test/cannonical_Form/canonicalForm.cpp.s
-.PHONY : utils_test/cannonical_Form/canonicalForm.cpp.s
+day03/ex01/FragTrap.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/day03/ex01/FragTrap.cpp.s
+.PHONY : day03/ex01/FragTrap.cpp.s
+
+day03/ex01/ScavTrap.o: day03/ex01/ScavTrap.cpp.o
+
+.PHONY : day03/ex01/ScavTrap.o
+
+# target to build an object file
+day03/ex01/ScavTrap.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/day03/ex01/ScavTrap.cpp.o
+.PHONY : day03/ex01/ScavTrap.cpp.o
+
+day03/ex01/ScavTrap.i: day03/ex01/ScavTrap.cpp.i
+
+.PHONY : day03/ex01/ScavTrap.i
+
+# target to preprocess a source file
+day03/ex01/ScavTrap.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/day03/ex01/ScavTrap.cpp.i
+.PHONY : day03/ex01/ScavTrap.cpp.i
+
+day03/ex01/ScavTrap.s: day03/ex01/ScavTrap.cpp.s
+
+.PHONY : day03/ex01/ScavTrap.s
+
+# target to generate assembly for a file
+day03/ex01/ScavTrap.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/day03/ex01/ScavTrap.cpp.s
+.PHONY : day03/ex01/ScavTrap.cpp.s
+
+day03/ex01/main.o: day03/ex01/main.cpp.o
+
+.PHONY : day03/ex01/main.o
+
+# target to build an object file
+day03/ex01/main.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/day03/ex01/main.cpp.o
+.PHONY : day03/ex01/main.cpp.o
+
+day03/ex01/main.i: day03/ex01/main.cpp.i
+
+.PHONY : day03/ex01/main.i
+
+# target to preprocess a source file
+day03/ex01/main.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/day03/ex01/main.cpp.i
+.PHONY : day03/ex01/main.cpp.i
+
+day03/ex01/main.s: day03/ex01/main.cpp.s
+
+.PHONY : day03/ex01/main.s
+
+# target to generate assembly for a file
+day03/ex01/main.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/day03/ex01/main.cpp.s
+.PHONY : day03/ex01/main.cpp.s
+
+day03/ex02/ClapTrap.o: day03/ex02/ClapTrap.cpp.o
+
+.PHONY : day03/ex02/ClapTrap.o
+
+# target to build an object file
+day03/ex02/ClapTrap.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/day03/ex02/ClapTrap.cpp.o
+.PHONY : day03/ex02/ClapTrap.cpp.o
+
+day03/ex02/ClapTrap.i: day03/ex02/ClapTrap.cpp.i
+
+.PHONY : day03/ex02/ClapTrap.i
+
+# target to preprocess a source file
+day03/ex02/ClapTrap.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/day03/ex02/ClapTrap.cpp.i
+.PHONY : day03/ex02/ClapTrap.cpp.i
+
+day03/ex02/ClapTrap.s: day03/ex02/ClapTrap.cpp.s
+
+.PHONY : day03/ex02/ClapTrap.s
+
+# target to generate assembly for a file
+day03/ex02/ClapTrap.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/day03/ex02/ClapTrap.cpp.s
+.PHONY : day03/ex02/ClapTrap.cpp.s
+
+day03/ex02/FragTrap.o: day03/ex02/FragTrap.cpp.o
+
+.PHONY : day03/ex02/FragTrap.o
+
+# target to build an object file
+day03/ex02/FragTrap.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/day03/ex02/FragTrap.cpp.o
+.PHONY : day03/ex02/FragTrap.cpp.o
+
+day03/ex02/FragTrap.i: day03/ex02/FragTrap.cpp.i
+
+.PHONY : day03/ex02/FragTrap.i
+
+# target to preprocess a source file
+day03/ex02/FragTrap.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/day03/ex02/FragTrap.cpp.i
+.PHONY : day03/ex02/FragTrap.cpp.i
+
+day03/ex02/FragTrap.s: day03/ex02/FragTrap.cpp.s
+
+.PHONY : day03/ex02/FragTrap.s
+
+# target to generate assembly for a file
+day03/ex02/FragTrap.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/day03/ex02/FragTrap.cpp.s
+.PHONY : day03/ex02/FragTrap.cpp.s
+
+day03/ex02/ScavTrap.o: day03/ex02/ScavTrap.cpp.o
+
+.PHONY : day03/ex02/ScavTrap.o
+
+# target to build an object file
+day03/ex02/ScavTrap.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/day03/ex02/ScavTrap.cpp.o
+.PHONY : day03/ex02/ScavTrap.cpp.o
+
+day03/ex02/ScavTrap.i: day03/ex02/ScavTrap.cpp.i
+
+.PHONY : day03/ex02/ScavTrap.i
+
+# target to preprocess a source file
+day03/ex02/ScavTrap.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/day03/ex02/ScavTrap.cpp.i
+.PHONY : day03/ex02/ScavTrap.cpp.i
+
+day03/ex02/ScavTrap.s: day03/ex02/ScavTrap.cpp.s
+
+.PHONY : day03/ex02/ScavTrap.s
+
+# target to generate assembly for a file
+day03/ex02/ScavTrap.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/day03/ex02/ScavTrap.cpp.s
+.PHONY : day03/ex02/ScavTrap.cpp.s
+
+day03/ex02/main.o: day03/ex02/main.cpp.o
+
+.PHONY : day03/ex02/main.o
+
+# target to build an object file
+day03/ex02/main.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/day03/ex02/main.cpp.o
+.PHONY : day03/ex02/main.cpp.o
+
+day03/ex02/main.i: day03/ex02/main.cpp.i
+
+.PHONY : day03/ex02/main.i
+
+# target to preprocess a source file
+day03/ex02/main.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/day03/ex02/main.cpp.i
+.PHONY : day03/ex02/main.cpp.i
+
+day03/ex02/main.s: day03/ex02/main.cpp.s
+
+.PHONY : day03/ex02/main.s
+
+# target to generate assembly for a file
+day03/ex02/main.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/day03/ex02/main.cpp.s
+.PHONY : day03/ex02/main.cpp.s
+
+day03/ex03/ClapTrap.o: day03/ex03/ClapTrap.cpp.o
+
+.PHONY : day03/ex03/ClapTrap.o
+
+# target to build an object file
+day03/ex03/ClapTrap.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/day03/ex03/ClapTrap.cpp.o
+.PHONY : day03/ex03/ClapTrap.cpp.o
+
+day03/ex03/ClapTrap.i: day03/ex03/ClapTrap.cpp.i
+
+.PHONY : day03/ex03/ClapTrap.i
+
+# target to preprocess a source file
+day03/ex03/ClapTrap.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/day03/ex03/ClapTrap.cpp.i
+.PHONY : day03/ex03/ClapTrap.cpp.i
+
+day03/ex03/ClapTrap.s: day03/ex03/ClapTrap.cpp.s
+
+.PHONY : day03/ex03/ClapTrap.s
+
+# target to generate assembly for a file
+day03/ex03/ClapTrap.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/day03/ex03/ClapTrap.cpp.s
+.PHONY : day03/ex03/ClapTrap.cpp.s
+
+day03/ex03/FragTrap.o: day03/ex03/FragTrap.cpp.o
+
+.PHONY : day03/ex03/FragTrap.o
+
+# target to build an object file
+day03/ex03/FragTrap.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/day03/ex03/FragTrap.cpp.o
+.PHONY : day03/ex03/FragTrap.cpp.o
+
+day03/ex03/FragTrap.i: day03/ex03/FragTrap.cpp.i
+
+.PHONY : day03/ex03/FragTrap.i
+
+# target to preprocess a source file
+day03/ex03/FragTrap.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/day03/ex03/FragTrap.cpp.i
+.PHONY : day03/ex03/FragTrap.cpp.i
+
+day03/ex03/FragTrap.s: day03/ex03/FragTrap.cpp.s
+
+.PHONY : day03/ex03/FragTrap.s
+
+# target to generate assembly for a file
+day03/ex03/FragTrap.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/day03/ex03/FragTrap.cpp.s
+.PHONY : day03/ex03/FragTrap.cpp.s
+
+day03/ex03/NinjaTrap.o: day03/ex03/NinjaTrap.cpp.o
+
+.PHONY : day03/ex03/NinjaTrap.o
+
+# target to build an object file
+day03/ex03/NinjaTrap.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/day03/ex03/NinjaTrap.cpp.o
+.PHONY : day03/ex03/NinjaTrap.cpp.o
+
+day03/ex03/NinjaTrap.i: day03/ex03/NinjaTrap.cpp.i
+
+.PHONY : day03/ex03/NinjaTrap.i
+
+# target to preprocess a source file
+day03/ex03/NinjaTrap.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/day03/ex03/NinjaTrap.cpp.i
+.PHONY : day03/ex03/NinjaTrap.cpp.i
+
+day03/ex03/NinjaTrap.s: day03/ex03/NinjaTrap.cpp.s
+
+.PHONY : day03/ex03/NinjaTrap.s
+
+# target to generate assembly for a file
+day03/ex03/NinjaTrap.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/day03/ex03/NinjaTrap.cpp.s
+.PHONY : day03/ex03/NinjaTrap.cpp.s
+
+day03/ex03/ScavTrap.o: day03/ex03/ScavTrap.cpp.o
+
+.PHONY : day03/ex03/ScavTrap.o
+
+# target to build an object file
+day03/ex03/ScavTrap.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/day03/ex03/ScavTrap.cpp.o
+.PHONY : day03/ex03/ScavTrap.cpp.o
+
+day03/ex03/ScavTrap.i: day03/ex03/ScavTrap.cpp.i
+
+.PHONY : day03/ex03/ScavTrap.i
+
+# target to preprocess a source file
+day03/ex03/ScavTrap.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/day03/ex03/ScavTrap.cpp.i
+.PHONY : day03/ex03/ScavTrap.cpp.i
+
+day03/ex03/ScavTrap.s: day03/ex03/ScavTrap.cpp.s
+
+.PHONY : day03/ex03/ScavTrap.s
+
+# target to generate assembly for a file
+day03/ex03/ScavTrap.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/day03/ex03/ScavTrap.cpp.s
+.PHONY : day03/ex03/ScavTrap.cpp.s
+
+day03/ex03/main.o: day03/ex03/main.cpp.o
+
+.PHONY : day03/ex03/main.o
+
+# target to build an object file
+day03/ex03/main.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/day03/ex03/main.cpp.o
+.PHONY : day03/ex03/main.cpp.o
+
+day03/ex03/main.i: day03/ex03/main.cpp.i
+
+.PHONY : day03/ex03/main.i
+
+# target to preprocess a source file
+day03/ex03/main.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/day03/ex03/main.cpp.i
+.PHONY : day03/ex03/main.cpp.i
+
+day03/ex03/main.s: day03/ex03/main.cpp.s
+
+.PHONY : day03/ex03/main.s
+
+# target to generate assembly for a file
+day03/ex03/main.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/day03/ex03/main.cpp.s
+.PHONY : day03/ex03/main.cpp.s
+
+day03/ex04/ClapTrap.o: day03/ex04/ClapTrap.cpp.o
+
+.PHONY : day03/ex04/ClapTrap.o
+
+# target to build an object file
+day03/ex04/ClapTrap.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/day03/ex04/ClapTrap.cpp.o
+.PHONY : day03/ex04/ClapTrap.cpp.o
+
+day03/ex04/ClapTrap.i: day03/ex04/ClapTrap.cpp.i
+
+.PHONY : day03/ex04/ClapTrap.i
+
+# target to preprocess a source file
+day03/ex04/ClapTrap.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/day03/ex04/ClapTrap.cpp.i
+.PHONY : day03/ex04/ClapTrap.cpp.i
+
+day03/ex04/ClapTrap.s: day03/ex04/ClapTrap.cpp.s
+
+.PHONY : day03/ex04/ClapTrap.s
+
+# target to generate assembly for a file
+day03/ex04/ClapTrap.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/day03/ex04/ClapTrap.cpp.s
+.PHONY : day03/ex04/ClapTrap.cpp.s
+
+day03/ex04/FragTrap.o: day03/ex04/FragTrap.cpp.o
+
+.PHONY : day03/ex04/FragTrap.o
+
+# target to build an object file
+day03/ex04/FragTrap.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/day03/ex04/FragTrap.cpp.o
+.PHONY : day03/ex04/FragTrap.cpp.o
+
+day03/ex04/FragTrap.i: day03/ex04/FragTrap.cpp.i
+
+.PHONY : day03/ex04/FragTrap.i
+
+# target to preprocess a source file
+day03/ex04/FragTrap.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/day03/ex04/FragTrap.cpp.i
+.PHONY : day03/ex04/FragTrap.cpp.i
+
+day03/ex04/FragTrap.s: day03/ex04/FragTrap.cpp.s
+
+.PHONY : day03/ex04/FragTrap.s
+
+# target to generate assembly for a file
+day03/ex04/FragTrap.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/day03/ex04/FragTrap.cpp.s
+.PHONY : day03/ex04/FragTrap.cpp.s
+
+day03/ex04/NinjaTrap.o: day03/ex04/NinjaTrap.cpp.o
+
+.PHONY : day03/ex04/NinjaTrap.o
+
+# target to build an object file
+day03/ex04/NinjaTrap.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/day03/ex04/NinjaTrap.cpp.o
+.PHONY : day03/ex04/NinjaTrap.cpp.o
+
+day03/ex04/NinjaTrap.i: day03/ex04/NinjaTrap.cpp.i
+
+.PHONY : day03/ex04/NinjaTrap.i
+
+# target to preprocess a source file
+day03/ex04/NinjaTrap.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/day03/ex04/NinjaTrap.cpp.i
+.PHONY : day03/ex04/NinjaTrap.cpp.i
+
+day03/ex04/NinjaTrap.s: day03/ex04/NinjaTrap.cpp.s
+
+.PHONY : day03/ex04/NinjaTrap.s
+
+# target to generate assembly for a file
+day03/ex04/NinjaTrap.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/day03/ex04/NinjaTrap.cpp.s
+.PHONY : day03/ex04/NinjaTrap.cpp.s
+
+day03/ex04/ScavTrap.o: day03/ex04/ScavTrap.cpp.o
+
+.PHONY : day03/ex04/ScavTrap.o
+
+# target to build an object file
+day03/ex04/ScavTrap.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/day03/ex04/ScavTrap.cpp.o
+.PHONY : day03/ex04/ScavTrap.cpp.o
+
+day03/ex04/ScavTrap.i: day03/ex04/ScavTrap.cpp.i
+
+.PHONY : day03/ex04/ScavTrap.i
+
+# target to preprocess a source file
+day03/ex04/ScavTrap.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/day03/ex04/ScavTrap.cpp.i
+.PHONY : day03/ex04/ScavTrap.cpp.i
+
+day03/ex04/ScavTrap.s: day03/ex04/ScavTrap.cpp.s
+
+.PHONY : day03/ex04/ScavTrap.s
+
+# target to generate assembly for a file
+day03/ex04/ScavTrap.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/day03/ex04/ScavTrap.cpp.s
+.PHONY : day03/ex04/ScavTrap.cpp.s
+
+day03/ex04/SuperTrap.o: day03/ex04/SuperTrap.cpp.o
+
+.PHONY : day03/ex04/SuperTrap.o
+
+# target to build an object file
+day03/ex04/SuperTrap.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/day03/ex04/SuperTrap.cpp.o
+.PHONY : day03/ex04/SuperTrap.cpp.o
+
+day03/ex04/SuperTrap.i: day03/ex04/SuperTrap.cpp.i
+
+.PHONY : day03/ex04/SuperTrap.i
+
+# target to preprocess a source file
+day03/ex04/SuperTrap.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/day03/ex04/SuperTrap.cpp.i
+.PHONY : day03/ex04/SuperTrap.cpp.i
+
+day03/ex04/SuperTrap.s: day03/ex04/SuperTrap.cpp.s
+
+.PHONY : day03/ex04/SuperTrap.s
+
+# target to generate assembly for a file
+day03/ex04/SuperTrap.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/day03/ex04/SuperTrap.cpp.s
+.PHONY : day03/ex04/SuperTrap.cpp.s
+
+day03/ex04/main.o: day03/ex04/main.cpp.o
+
+.PHONY : day03/ex04/main.o
+
+# target to build an object file
+day03/ex04/main.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/day03/ex04/main.cpp.o
+.PHONY : day03/ex04/main.cpp.o
+
+day03/ex04/main.i: day03/ex04/main.cpp.i
+
+.PHONY : day03/ex04/main.i
+
+# target to preprocess a source file
+day03/ex04/main.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/day03/ex04/main.cpp.i
+.PHONY : day03/ex04/main.cpp.i
+
+day03/ex04/main.s: day03/ex04/main.cpp.s
+
+.PHONY : day03/ex04/main.s
+
+# target to generate assembly for a file
+day03/ex04/main.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/day03/ex04/main.cpp.s
+.PHONY : day03/ex04/main.cpp.s
+
+utils_test/cannonical_Form/canonicalForm.class.o: utils_test/cannonical_Form/canonicalForm.class.cpp.o
+
+.PHONY : utils_test/cannonical_Form/canonicalForm.class.o
+
+# target to build an object file
+utils_test/cannonical_Form/canonicalForm.class.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/utils_test/cannonical_Form/canonicalForm.class.cpp.o
+.PHONY : utils_test/cannonical_Form/canonicalForm.class.cpp.o
+
+utils_test/cannonical_Form/canonicalForm.class.i: utils_test/cannonical_Form/canonicalForm.class.cpp.i
+
+.PHONY : utils_test/cannonical_Form/canonicalForm.class.i
+
+# target to preprocess a source file
+utils_test/cannonical_Form/canonicalForm.class.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/utils_test/cannonical_Form/canonicalForm.class.cpp.i
+.PHONY : utils_test/cannonical_Form/canonicalForm.class.cpp.i
+
+utils_test/cannonical_Form/canonicalForm.class.s: utils_test/cannonical_Form/canonicalForm.class.cpp.s
+
+.PHONY : utils_test/cannonical_Form/canonicalForm.class.s
+
+# target to generate assembly for a file
+utils_test/cannonical_Form/canonicalForm.class.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/utils_test/cannonical_Form/canonicalForm.class.cpp.s
+.PHONY : utils_test/cannonical_Form/canonicalForm.class.cpp.s
 
 utils_test/class_instance/Sample.class.o: utils_test/class_instance/Sample.class.cpp.o
 
@@ -1291,11 +1777,11 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... main"
 	@echo "... edit_cache"
-	@echo "... CMakeFiles/3.14.3/CompilerIdCXX/CMakeCXXCompilerId.o"
-	@echo "... CMakeFiles/3.14.3/CompilerIdCXX/CMakeCXXCompilerId.i"
-	@echo "... CMakeFiles/3.14.3/CompilerIdCXX/CMakeCXXCompilerId.s"
+	@echo "... main"
+	@echo "... CMakeFiles/3.14.2/CompilerIdCXX/CMakeCXXCompilerId.o"
+	@echo "... CMakeFiles/3.14.2/CompilerIdCXX/CMakeCXXCompilerId.i"
+	@echo "... CMakeFiles/3.14.2/CompilerIdCXX/CMakeCXXCompilerId.s"
 	@echo "... day00/ex00/megaphone.o"
 	@echo "... day00/ex00/megaphone.i"
 	@echo "... day00/ex00/megaphone.s"
@@ -1380,9 +1866,63 @@ help:
 	@echo "... day03/ex00/main.o"
 	@echo "... day03/ex00/main.i"
 	@echo "... day03/ex00/main.s"
-	@echo "... utils_test/cannonical_Form/canonicalForm.o"
-	@echo "... utils_test/cannonical_Form/canonicalForm.i"
-	@echo "... utils_test/cannonical_Form/canonicalForm.s"
+	@echo "... day03/ex01/FragTrap.o"
+	@echo "... day03/ex01/FragTrap.i"
+	@echo "... day03/ex01/FragTrap.s"
+	@echo "... day03/ex01/ScavTrap.o"
+	@echo "... day03/ex01/ScavTrap.i"
+	@echo "... day03/ex01/ScavTrap.s"
+	@echo "... day03/ex01/main.o"
+	@echo "... day03/ex01/main.i"
+	@echo "... day03/ex01/main.s"
+	@echo "... day03/ex02/ClapTrap.o"
+	@echo "... day03/ex02/ClapTrap.i"
+	@echo "... day03/ex02/ClapTrap.s"
+	@echo "... day03/ex02/FragTrap.o"
+	@echo "... day03/ex02/FragTrap.i"
+	@echo "... day03/ex02/FragTrap.s"
+	@echo "... day03/ex02/ScavTrap.o"
+	@echo "... day03/ex02/ScavTrap.i"
+	@echo "... day03/ex02/ScavTrap.s"
+	@echo "... day03/ex02/main.o"
+	@echo "... day03/ex02/main.i"
+	@echo "... day03/ex02/main.s"
+	@echo "... day03/ex03/ClapTrap.o"
+	@echo "... day03/ex03/ClapTrap.i"
+	@echo "... day03/ex03/ClapTrap.s"
+	@echo "... day03/ex03/FragTrap.o"
+	@echo "... day03/ex03/FragTrap.i"
+	@echo "... day03/ex03/FragTrap.s"
+	@echo "... day03/ex03/NinjaTrap.o"
+	@echo "... day03/ex03/NinjaTrap.i"
+	@echo "... day03/ex03/NinjaTrap.s"
+	@echo "... day03/ex03/ScavTrap.o"
+	@echo "... day03/ex03/ScavTrap.i"
+	@echo "... day03/ex03/ScavTrap.s"
+	@echo "... day03/ex03/main.o"
+	@echo "... day03/ex03/main.i"
+	@echo "... day03/ex03/main.s"
+	@echo "... day03/ex04/ClapTrap.o"
+	@echo "... day03/ex04/ClapTrap.i"
+	@echo "... day03/ex04/ClapTrap.s"
+	@echo "... day03/ex04/FragTrap.o"
+	@echo "... day03/ex04/FragTrap.i"
+	@echo "... day03/ex04/FragTrap.s"
+	@echo "... day03/ex04/NinjaTrap.o"
+	@echo "... day03/ex04/NinjaTrap.i"
+	@echo "... day03/ex04/NinjaTrap.s"
+	@echo "... day03/ex04/ScavTrap.o"
+	@echo "... day03/ex04/ScavTrap.i"
+	@echo "... day03/ex04/ScavTrap.s"
+	@echo "... day03/ex04/SuperTrap.o"
+	@echo "... day03/ex04/SuperTrap.i"
+	@echo "... day03/ex04/SuperTrap.s"
+	@echo "... day03/ex04/main.o"
+	@echo "... day03/ex04/main.i"
+	@echo "... day03/ex04/main.s"
+	@echo "... utils_test/cannonical_Form/canonicalForm.class.o"
+	@echo "... utils_test/cannonical_Form/canonicalForm.class.i"
+	@echo "... utils_test/cannonical_Form/canonicalForm.class.s"
 	@echo "... utils_test/class_instance/Sample.class.o"
 	@echo "... utils_test/class_instance/Sample.class.i"
 	@echo "... utils_test/class_instance/Sample.class.s"

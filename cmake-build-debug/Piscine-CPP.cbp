@@ -8,291 +8,385 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/iphie/42/CPP/Piscine-CPP/cmake-build-debug"/>
+				<Option working_dir="/Users/aliandie/Projects/Piscine-CPP/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/iphie/42/CPP/Piscine-CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/iphie/42/CPP/Piscine-CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/iphie/42/CPP/Piscine-CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/iphie/42/CPP/Piscine-CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/aliandie/Projects/Piscine-CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/aliandie/Projects/Piscine-CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/aliandie/Projects/Piscine-CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/aliandie/Projects/Piscine-CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/iphie/42/CPP/Piscine-CPP/cmake-build-debug"/>
+				<Option working_dir="/Users/aliandie/Projects/Piscine-CPP/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/iphie/42/CPP/Piscine-CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/iphie/42/CPP/Piscine-CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/iphie/42/CPP/Piscine-CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/iphie/42/CPP/Piscine-CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="main">
-				<Option output="/home/iphie/42/CPP/Piscine-CPP/cmake-build-debug/main" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/iphie/42/CPP/Piscine-CPP/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/home/iphie/42/CPP/Piscine-CPP/."/>
-					<Add directory="/home/iphie/42/CPP/Piscine-CPP/day00"/>
-					<Add directory="/home/iphie/42/CPP/Piscine-CPP/day01"/>
-					<Add directory="/home/iphie/42/CPP/Piscine-CPP/day02"/>
-					<Add directory="/home/iphie/42/CPP/Piscine-CPP/day03"/>
-					<Add directory="/home/iphie/42/CPP/Piscine-CPP/day04"/>
-					<Add directory="/home/iphie/42/CPP/Piscine-CPP/day05"/>
-					<Add directory="/home/iphie/42/CPP/Piscine-CPP/day06"/>
-					<Add directory="/home/iphie/42/CPP/Piscine-CPP/day07"/>
-					<Add directory="/home/iphie/42/CPP/Piscine-CPP/day08"/>
-					<Add directory="/home/iphie/42/CPP/Piscine-CPP/utils_test"/>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/iphie/42/CPP/Piscine-CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 main"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/iphie/42/CPP/Piscine-CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/iphie/42/CPP/Piscine-CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/iphie/42/CPP/Piscine-CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="main/fast">
-				<Option output="/home/iphie/42/CPP/Piscine-CPP/cmake-build-debug/main" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/iphie/42/CPP/Piscine-CPP/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/home/iphie/42/CPP/Piscine-CPP/."/>
-					<Add directory="/home/iphie/42/CPP/Piscine-CPP/day00"/>
-					<Add directory="/home/iphie/42/CPP/Piscine-CPP/day01"/>
-					<Add directory="/home/iphie/42/CPP/Piscine-CPP/day02"/>
-					<Add directory="/home/iphie/42/CPP/Piscine-CPP/day03"/>
-					<Add directory="/home/iphie/42/CPP/Piscine-CPP/day04"/>
-					<Add directory="/home/iphie/42/CPP/Piscine-CPP/day05"/>
-					<Add directory="/home/iphie/42/CPP/Piscine-CPP/day06"/>
-					<Add directory="/home/iphie/42/CPP/Piscine-CPP/day07"/>
-					<Add directory="/home/iphie/42/CPP/Piscine-CPP/day08"/>
-					<Add directory="/home/iphie/42/CPP/Piscine-CPP/utils_test"/>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/iphie/42/CPP/Piscine-CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 main/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/iphie/42/CPP/Piscine-CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/iphie/42/CPP/Piscine-CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/iphie/42/CPP/Piscine-CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/aliandie/Projects/Piscine-CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/aliandie/Projects/Piscine-CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/aliandie/Projects/Piscine-CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/aliandie/Projects/Piscine-CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/iphie/42/CPP/Piscine-CPP/cmake-build-debug"/>
+				<Option working_dir="/Users/aliandie/Projects/Piscine-CPP/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/iphie/42/CPP/Piscine-CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/iphie/42/CPP/Piscine-CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/iphie/42/CPP/Piscine-CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/iphie/42/CPP/Piscine-CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/aliandie/Projects/Piscine-CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/aliandie/Projects/Piscine-CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/aliandie/Projects/Piscine-CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/aliandie/Projects/Piscine-CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main">
+				<Option output="/Users/aliandie/Projects/Piscine-CPP/cmake-build-debug/main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/aliandie/Projects/Piscine-CPP/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/aliandie/Projects/Piscine-CPP/."/>
+					<Add directory="/Users/aliandie/Projects/Piscine-CPP/day00"/>
+					<Add directory="/Users/aliandie/Projects/Piscine-CPP/day01"/>
+					<Add directory="/Users/aliandie/Projects/Piscine-CPP/day02"/>
+					<Add directory="/Users/aliandie/Projects/Piscine-CPP/day03"/>
+					<Add directory="/Users/aliandie/Projects/Piscine-CPP/day04"/>
+					<Add directory="/Users/aliandie/Projects/Piscine-CPP/day05"/>
+					<Add directory="/Users/aliandie/Projects/Piscine-CPP/day06"/>
+					<Add directory="/Users/aliandie/Projects/Piscine-CPP/day07"/>
+					<Add directory="/Users/aliandie/Projects/Piscine-CPP/day08"/>
+					<Add directory="/Users/aliandie/Projects/Piscine-CPP/utils_test"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/aliandie/Projects/Piscine-CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 main"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/aliandie/Projects/Piscine-CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/aliandie/Projects/Piscine-CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/aliandie/Projects/Piscine-CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main/fast">
+				<Option output="/Users/aliandie/Projects/Piscine-CPP/cmake-build-debug/main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/aliandie/Projects/Piscine-CPP/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/aliandie/Projects/Piscine-CPP/."/>
+					<Add directory="/Users/aliandie/Projects/Piscine-CPP/day00"/>
+					<Add directory="/Users/aliandie/Projects/Piscine-CPP/day01"/>
+					<Add directory="/Users/aliandie/Projects/Piscine-CPP/day02"/>
+					<Add directory="/Users/aliandie/Projects/Piscine-CPP/day03"/>
+					<Add directory="/Users/aliandie/Projects/Piscine-CPP/day04"/>
+					<Add directory="/Users/aliandie/Projects/Piscine-CPP/day05"/>
+					<Add directory="/Users/aliandie/Projects/Piscine-CPP/day06"/>
+					<Add directory="/Users/aliandie/Projects/Piscine-CPP/day07"/>
+					<Add directory="/Users/aliandie/Projects/Piscine-CPP/day08"/>
+					<Add directory="/Users/aliandie/Projects/Piscine-CPP/utils_test"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/aliandie/Projects/Piscine-CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 main/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/aliandie/Projects/Piscine-CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/aliandie/Projects/Piscine-CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/aliandie/Projects/Piscine-CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/cmake-build-debug/CMakeFiles/3.14.3/CompilerIdCXX/CMakeCXXCompilerId.cpp">
+		<Unit filename="/Users/aliandie/Projects/Piscine-CPP/cmake-build-debug/CMakeFiles/3.14.2/CompilerIdCXX/CMakeCXXCompilerId.cpp">
 			<Option target="main"/>
 		</Unit>
-		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/day00/ex00/megaphone.cpp">
+		<Unit filename="/Users/aliandie/Projects/Piscine-CPP/day00/ex00/megaphone.cpp">
 			<Option target="main"/>
 		</Unit>
-		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/day00/ex01/phone_book.class.cpp">
+		<Unit filename="/Users/aliandie/Projects/Piscine-CPP/day00/ex01/phone_book.class.cpp">
 			<Option target="main"/>
 		</Unit>
-		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/day00/ex01/phone_book.class.hpp">
+		<Unit filename="/Users/aliandie/Projects/Piscine-CPP/day00/ex01/phone_book.class.hpp">
 			<Option target="main"/>
 		</Unit>
-		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/day00/ex01/phone_book.cpp">
+		<Unit filename="/Users/aliandie/Projects/Piscine-CPP/day00/ex01/phone_book.cpp">
 			<Option target="main"/>
 		</Unit>
-		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/day00/ex02/Account.class.cpp">
+		<Unit filename="/Users/aliandie/Projects/Piscine-CPP/day00/ex02/Account.class.cpp">
 			<Option target="main"/>
 		</Unit>
-		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/day01/ex00/Pony.cpp">
+		<Unit filename="/Users/aliandie/Projects/Piscine-CPP/day01/ex00/Pony.cpp">
 			<Option target="main"/>
 		</Unit>
-		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/day01/ex00/Pony.hpp">
+		<Unit filename="/Users/aliandie/Projects/Piscine-CPP/day01/ex00/Pony.hpp">
 			<Option target="main"/>
 		</Unit>
-		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/day01/ex00/main.cpp">
+		<Unit filename="/Users/aliandie/Projects/Piscine-CPP/day01/ex00/main.cpp">
 			<Option target="main"/>
 		</Unit>
-		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/day01/ex01/ex01.cpp">
+		<Unit filename="/Users/aliandie/Projects/Piscine-CPP/day01/ex01/ex01.cpp">
 			<Option target="main"/>
 		</Unit>
-		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/day01/ex02/Zombie.cpp">
+		<Unit filename="/Users/aliandie/Projects/Piscine-CPP/day01/ex02/Zombie.cpp">
 			<Option target="main"/>
 		</Unit>
-		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/day01/ex02/Zombie.hpp">
+		<Unit filename="/Users/aliandie/Projects/Piscine-CPP/day01/ex02/Zombie.hpp">
 			<Option target="main"/>
 		</Unit>
-		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/day01/ex02/ZombieEvent.cpp">
+		<Unit filename="/Users/aliandie/Projects/Piscine-CPP/day01/ex02/ZombieEvent.cpp">
 			<Option target="main"/>
 		</Unit>
-		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/day01/ex02/ZombieEvent.hpp">
+		<Unit filename="/Users/aliandie/Projects/Piscine-CPP/day01/ex02/ZombieEvent.hpp">
 			<Option target="main"/>
 		</Unit>
-		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/day01/ex02/main.cpp">
+		<Unit filename="/Users/aliandie/Projects/Piscine-CPP/day01/ex02/main.cpp">
 			<Option target="main"/>
 		</Unit>
-		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/day01/ex03/Zombie.cpp">
+		<Unit filename="/Users/aliandie/Projects/Piscine-CPP/day01/ex03/Zombie.cpp">
 			<Option target="main"/>
 		</Unit>
-		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/day01/ex03/Zombie.hpp">
+		<Unit filename="/Users/aliandie/Projects/Piscine-CPP/day01/ex03/Zombie.hpp">
 			<Option target="main"/>
 		</Unit>
-		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/day01/ex03/ZombieHorde.cpp">
+		<Unit filename="/Users/aliandie/Projects/Piscine-CPP/day01/ex03/ZombieHorde.cpp">
 			<Option target="main"/>
 		</Unit>
-		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/day01/ex03/ZombieHorde.hpp">
+		<Unit filename="/Users/aliandie/Projects/Piscine-CPP/day01/ex03/ZombieHorde.hpp">
 			<Option target="main"/>
 		</Unit>
-		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/day01/ex03/main.cpp">
+		<Unit filename="/Users/aliandie/Projects/Piscine-CPP/day01/ex03/main.cpp">
 			<Option target="main"/>
 		</Unit>
-		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/day01/ex04/ex04.cpp">
+		<Unit filename="/Users/aliandie/Projects/Piscine-CPP/day01/ex04/ex04.cpp">
 			<Option target="main"/>
 		</Unit>
-		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/day01/ex05/Brain.cpp">
+		<Unit filename="/Users/aliandie/Projects/Piscine-CPP/day01/ex05/Brain.cpp">
 			<Option target="main"/>
 		</Unit>
-		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/day01/ex05/Brain.hpp">
+		<Unit filename="/Users/aliandie/Projects/Piscine-CPP/day01/ex05/Brain.hpp">
 			<Option target="main"/>
 		</Unit>
-		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/day01/ex05/Human.cpp">
+		<Unit filename="/Users/aliandie/Projects/Piscine-CPP/day01/ex05/Human.cpp">
 			<Option target="main"/>
 		</Unit>
-		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/day01/ex05/Human.hpp">
+		<Unit filename="/Users/aliandie/Projects/Piscine-CPP/day01/ex05/Human.hpp">
 			<Option target="main"/>
 		</Unit>
-		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/day01/ex05/main.cpp">
+		<Unit filename="/Users/aliandie/Projects/Piscine-CPP/day01/ex05/main.cpp">
 			<Option target="main"/>
 		</Unit>
-		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/day01/ex06/HumanA.cpp">
+		<Unit filename="/Users/aliandie/Projects/Piscine-CPP/day01/ex06/HumanA.cpp">
 			<Option target="main"/>
 		</Unit>
-		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/day01/ex06/HumanA.hpp">
+		<Unit filename="/Users/aliandie/Projects/Piscine-CPP/day01/ex06/HumanA.hpp">
 			<Option target="main"/>
 		</Unit>
-		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/day01/ex06/HumanB.cpp">
+		<Unit filename="/Users/aliandie/Projects/Piscine-CPP/day01/ex06/HumanB.cpp">
 			<Option target="main"/>
 		</Unit>
-		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/day01/ex06/HumanB.hpp">
+		<Unit filename="/Users/aliandie/Projects/Piscine-CPP/day01/ex06/HumanB.hpp">
 			<Option target="main"/>
 		</Unit>
-		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/day01/ex06/Weapon.cpp">
+		<Unit filename="/Users/aliandie/Projects/Piscine-CPP/day01/ex06/Weapon.cpp">
 			<Option target="main"/>
 		</Unit>
-		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/day01/ex06/Weapon.hpp">
+		<Unit filename="/Users/aliandie/Projects/Piscine-CPP/day01/ex06/Weapon.hpp">
 			<Option target="main"/>
 		</Unit>
-		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/day01/ex06/main.cpp">
+		<Unit filename="/Users/aliandie/Projects/Piscine-CPP/day01/ex06/main.cpp">
 			<Option target="main"/>
 		</Unit>
-		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/day01/ex07/replace.cpp">
+		<Unit filename="/Users/aliandie/Projects/Piscine-CPP/day01/ex07/replace.cpp">
 			<Option target="main"/>
 		</Unit>
-		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/day02/ex00/Fixed.class.cpp">
+		<Unit filename="/Users/aliandie/Projects/Piscine-CPP/day02/ex00/Fixed.class.cpp">
 			<Option target="main"/>
 		</Unit>
-		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/day02/ex00/Fixed.class.hpp">
+		<Unit filename="/Users/aliandie/Projects/Piscine-CPP/day02/ex00/Fixed.class.hpp">
 			<Option target="main"/>
 		</Unit>
-		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/day02/ex00/main.cpp">
+		<Unit filename="/Users/aliandie/Projects/Piscine-CPP/day02/ex00/main.cpp">
 			<Option target="main"/>
 		</Unit>
-		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/day02/ex01/Fixed.class.cpp">
+		<Unit filename="/Users/aliandie/Projects/Piscine-CPP/day02/ex01/Fixed.class.cpp">
 			<Option target="main"/>
 		</Unit>
-		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/day02/ex01/Fixed.class.hpp">
+		<Unit filename="/Users/aliandie/Projects/Piscine-CPP/day02/ex01/Fixed.class.hpp">
 			<Option target="main"/>
 		</Unit>
-		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/day02/ex01/main.cpp">
+		<Unit filename="/Users/aliandie/Projects/Piscine-CPP/day02/ex01/main.cpp">
 			<Option target="main"/>
 		</Unit>
-		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/day03/ex00/FragTrap.cpp">
+		<Unit filename="/Users/aliandie/Projects/Piscine-CPP/day03/ex00/FragTrap.cpp">
 			<Option target="main"/>
 		</Unit>
-		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/day03/ex00/FragTrap.hpp">
+		<Unit filename="/Users/aliandie/Projects/Piscine-CPP/day03/ex00/FragTrap.hpp">
 			<Option target="main"/>
 		</Unit>
-		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/day03/ex00/main.cpp">
+		<Unit filename="/Users/aliandie/Projects/Piscine-CPP/day03/ex00/main.cpp">
 			<Option target="main"/>
 		</Unit>
-		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/utils_test/cannonical_Form/canonicalForm.class.hpp">
+		<Unit filename="/Users/aliandie/Projects/Piscine-CPP/day03/ex01/FragTrap.cpp">
 			<Option target="main"/>
 		</Unit>
-		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/utils_test/cannonical_Form/canonicalForm.cpp">
+		<Unit filename="/Users/aliandie/Projects/Piscine-CPP/day03/ex01/FragTrap.hpp">
 			<Option target="main"/>
 		</Unit>
-		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/utils_test/class_instance/Sample.class.cpp">
+		<Unit filename="/Users/aliandie/Projects/Piscine-CPP/day03/ex01/ScavTrap.cpp">
 			<Option target="main"/>
 		</Unit>
-		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/utils_test/class_instance/Sample.class.hpp">
+		<Unit filename="/Users/aliandie/Projects/Piscine-CPP/day03/ex01/ScavTrap.hpp">
 			<Option target="main"/>
 		</Unit>
-		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/utils_test/class_instance/main.cpp">
+		<Unit filename="/Users/aliandie/Projects/Piscine-CPP/day03/ex01/main.cpp">
 			<Option target="main"/>
 		</Unit>
-		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/utils_test/fileStream/fstream1.cpp">
+		<Unit filename="/Users/aliandie/Projects/Piscine-CPP/day03/ex02/ClapTrap.cpp">
 			<Option target="main"/>
 		</Unit>
-		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/utils_test/function_polymorphism/Sample.class.cpp">
+		<Unit filename="/Users/aliandie/Projects/Piscine-CPP/day03/ex02/ClapTrap.hpp">
 			<Option target="main"/>
 		</Unit>
-		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/utils_test/function_polymorphism/Sample.class.hpp">
+		<Unit filename="/Users/aliandie/Projects/Piscine-CPP/day03/ex02/FragTrap.cpp">
 			<Option target="main"/>
 		</Unit>
-		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/utils_test/function_polymorphism/main.cpp">
+		<Unit filename="/Users/aliandie/Projects/Piscine-CPP/day03/ex02/FragTrap.hpp">
 			<Option target="main"/>
 		</Unit>
-		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/utils_test/operator_overload/Integer.class.cpp">
+		<Unit filename="/Users/aliandie/Projects/Piscine-CPP/day03/ex02/ScavTrap.cpp">
 			<Option target="main"/>
 		</Unit>
-		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/utils_test/operator_overload/Integer.class.hpp">
+		<Unit filename="/Users/aliandie/Projects/Piscine-CPP/day03/ex02/ScavTrap.hpp">
 			<Option target="main"/>
 		</Unit>
-		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/utils_test/operator_overload/main.cpp">
+		<Unit filename="/Users/aliandie/Projects/Piscine-CPP/day03/ex02/main.cpp">
 			<Option target="main"/>
 		</Unit>
-		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/utils_test/poiteurToMember/main.cpp">
+		<Unit filename="/Users/aliandie/Projects/Piscine-CPP/day03/ex03/ClapTrap.cpp">
 			<Option target="main"/>
 		</Unit>
-		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/utils_test/poiteurToMember/sample.class.cpp">
+		<Unit filename="/Users/aliandie/Projects/Piscine-CPP/day03/ex03/ClapTrap.hpp">
 			<Option target="main"/>
 		</Unit>
-		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/utils_test/poiteurToMember/sample.class.hpp">
+		<Unit filename="/Users/aliandie/Projects/Piscine-CPP/day03/ex03/FragTrap.cpp">
 			<Option target="main"/>
 		</Unit>
-		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/utils_test/references/initAndCallRef.cpp">
+		<Unit filename="/Users/aliandie/Projects/Piscine-CPP/day03/ex03/FragTrap.hpp">
 			<Option target="main"/>
 		</Unit>
-		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/utils_test/references/ref1.cpp">
+		<Unit filename="/Users/aliandie/Projects/Piscine-CPP/day03/ex03/NinjaTrap.cpp">
 			<Option target="main"/>
 		</Unit>
-		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/utils_test/references/returnRef.cpp">
+		<Unit filename="/Users/aliandie/Projects/Piscine-CPP/day03/ex03/NinjaTrap.hpp">
 			<Option target="main"/>
 		</Unit>
-		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/utils_test/references/sendRef.cpp">
+		<Unit filename="/Users/aliandie/Projects/Piscine-CPP/day03/ex03/ScavTrap.cpp">
 			<Option target="main"/>
 		</Unit>
-		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/CMakeLists.txt">
+		<Unit filename="/Users/aliandie/Projects/Piscine-CPP/day03/ex03/ScavTrap.hpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/aliandie/Projects/Piscine-CPP/day03/ex03/main.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/aliandie/Projects/Piscine-CPP/day03/ex04/ClapTrap.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/aliandie/Projects/Piscine-CPP/day03/ex04/ClapTrap.hpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/aliandie/Projects/Piscine-CPP/day03/ex04/FragTrap.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/aliandie/Projects/Piscine-CPP/day03/ex04/FragTrap.hpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/aliandie/Projects/Piscine-CPP/day03/ex04/NinjaTrap.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/aliandie/Projects/Piscine-CPP/day03/ex04/NinjaTrap.hpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/aliandie/Projects/Piscine-CPP/day03/ex04/ScavTrap.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/aliandie/Projects/Piscine-CPP/day03/ex04/ScavTrap.hpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/aliandie/Projects/Piscine-CPP/day03/ex04/SuperTrap.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/aliandie/Projects/Piscine-CPP/day03/ex04/SuperTrap.hpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/aliandie/Projects/Piscine-CPP/day03/ex04/main.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/aliandie/Projects/Piscine-CPP/utils_test/cannonical_Form/canonicalForm.class.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/aliandie/Projects/Piscine-CPP/utils_test/cannonical_Form/canonicalForm.class.hpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/aliandie/Projects/Piscine-CPP/utils_test/class_instance/Sample.class.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/aliandie/Projects/Piscine-CPP/utils_test/class_instance/Sample.class.hpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/aliandie/Projects/Piscine-CPP/utils_test/class_instance/main.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/aliandie/Projects/Piscine-CPP/utils_test/fileStream/fstream1.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/aliandie/Projects/Piscine-CPP/utils_test/function_polymorphism/Sample.class.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/aliandie/Projects/Piscine-CPP/utils_test/function_polymorphism/Sample.class.hpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/aliandie/Projects/Piscine-CPP/utils_test/function_polymorphism/main.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/aliandie/Projects/Piscine-CPP/utils_test/operator_overload/Integer.class.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/aliandie/Projects/Piscine-CPP/utils_test/operator_overload/Integer.class.hpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/aliandie/Projects/Piscine-CPP/utils_test/operator_overload/main.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/aliandie/Projects/Piscine-CPP/utils_test/poiteurToMember/main.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/aliandie/Projects/Piscine-CPP/utils_test/poiteurToMember/sample.class.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/aliandie/Projects/Piscine-CPP/utils_test/poiteurToMember/sample.class.hpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/aliandie/Projects/Piscine-CPP/utils_test/references/initAndCallRef.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/aliandie/Projects/Piscine-CPP/utils_test/references/ref1.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/aliandie/Projects/Piscine-CPP/utils_test/references/returnRef.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/aliandie/Projects/Piscine-CPP/utils_test/references/sendRef.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/aliandie/Projects/Piscine-CPP/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
