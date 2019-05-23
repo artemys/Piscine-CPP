@@ -1,6 +1,3 @@
-
-#include <day02/ex01/Fixed.class.hpp>
-
 #include "Fixed.class.hpp"
 Fixed::Fixed(): _fixedPoint(0) {
     std::cout << "Default constructor called" << std::endl;
@@ -33,16 +30,3 @@ int Fixed::getRawBits(void) const {
 void Fixed::setRawBits(int const raw) {
     _fixedPoint = raw;
 }
-
-Fixed::Fixed(float const) {
-
-}
-
-float Fixed::toFloat(void) const {
-    return 0;
-}
-
-int Fixed::toInt(void) const {
-    return 0;
-}
-
