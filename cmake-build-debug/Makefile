@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake
+CMAKE_COMMAND = /home/iphie/clion-2019.1.3/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
+RM = /home/iphie/clion-2019.1.3/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/aliandie/Projects/Piscine-CPP
+CMAKE_SOURCE_DIR = /home/iphie/42/CPP/Piscine-CPP
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/aliandie/Projects/Piscine-CPP/cmake-build-debug
+CMAKE_BINARY_DIR = /home/iphie/42/CPP/Piscine-CPP/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /Users/aliandie/Projects/Piscine-CPP/cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/home/iphie/clion-2019.1.3/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/home/iphie/clion-2019.1.3/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aliandie/Projects/Piscine-CPP/cmake-build-debug/CMakeFiles /Users/aliandie/Projects/Piscine-CPP/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/iphie/42/CPP/Piscine-CPP/cmake-build-debug/CMakeFiles /home/iphie/42/CPP/Piscine-CPP/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aliandie/Projects/Piscine-CPP/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/iphie/42/CPP/Piscine-CPP/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,32 +123,32 @@ main/fast:
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
 
-CMakeFiles/3.14.2/CompilerIdCXX/CMakeCXXCompilerId.o: CMakeFiles/3.14.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.o
+CMakeFiles/3.14.3/CompilerIdCXX/CMakeCXXCompilerId.o: CMakeFiles/3.14.3/CompilerIdCXX/CMakeCXXCompilerId.cpp.o
 
-.PHONY : CMakeFiles/3.14.2/CompilerIdCXX/CMakeCXXCompilerId.o
+.PHONY : CMakeFiles/3.14.3/CompilerIdCXX/CMakeCXXCompilerId.o
 
 # target to build an object file
-CMakeFiles/3.14.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/CMakeFiles/3.14.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.o
-.PHONY : CMakeFiles/3.14.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.o
+CMakeFiles/3.14.3/CompilerIdCXX/CMakeCXXCompilerId.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/CMakeFiles/3.14.3/CompilerIdCXX/CMakeCXXCompilerId.cpp.o
+.PHONY : CMakeFiles/3.14.3/CompilerIdCXX/CMakeCXXCompilerId.cpp.o
 
-CMakeFiles/3.14.2/CompilerIdCXX/CMakeCXXCompilerId.i: CMakeFiles/3.14.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.i
+CMakeFiles/3.14.3/CompilerIdCXX/CMakeCXXCompilerId.i: CMakeFiles/3.14.3/CompilerIdCXX/CMakeCXXCompilerId.cpp.i
 
-.PHONY : CMakeFiles/3.14.2/CompilerIdCXX/CMakeCXXCompilerId.i
+.PHONY : CMakeFiles/3.14.3/CompilerIdCXX/CMakeCXXCompilerId.i
 
 # target to preprocess a source file
-CMakeFiles/3.14.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/CMakeFiles/3.14.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.i
-.PHONY : CMakeFiles/3.14.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.i
+CMakeFiles/3.14.3/CompilerIdCXX/CMakeCXXCompilerId.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/CMakeFiles/3.14.3/CompilerIdCXX/CMakeCXXCompilerId.cpp.i
+.PHONY : CMakeFiles/3.14.3/CompilerIdCXX/CMakeCXXCompilerId.cpp.i
 
-CMakeFiles/3.14.2/CompilerIdCXX/CMakeCXXCompilerId.s: CMakeFiles/3.14.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.s
+CMakeFiles/3.14.3/CompilerIdCXX/CMakeCXXCompilerId.s: CMakeFiles/3.14.3/CompilerIdCXX/CMakeCXXCompilerId.cpp.s
 
-.PHONY : CMakeFiles/3.14.2/CompilerIdCXX/CMakeCXXCompilerId.s
+.PHONY : CMakeFiles/3.14.3/CompilerIdCXX/CMakeCXXCompilerId.s
 
 # target to generate assembly for a file
-CMakeFiles/3.14.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/CMakeFiles/3.14.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.s
-.PHONY : CMakeFiles/3.14.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.s
+CMakeFiles/3.14.3/CompilerIdCXX/CMakeCXXCompilerId.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/CMakeFiles/3.14.3/CompilerIdCXX/CMakeCXXCompilerId.cpp.s
+.PHONY : CMakeFiles/3.14.3/CompilerIdCXX/CMakeCXXCompilerId.cpp.s
 
 day00/ex00/megaphone.o: day00/ex00/megaphone.cpp.o
 
@@ -744,113 +744,113 @@ day01/ex07/replace.cpp.s:
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/day01/ex07/replace.cpp.s
 .PHONY : day01/ex07/replace.cpp.s
 
-day02/ex00/Fixed.class.o: day02/ex00/Fixed.class.cpp.o
+day02/ex00/Fixed.o: day02/ex00/Fixed.cpp.o
 
-.PHONY : day02/ex00/Fixed.class.o
-
-# target to build an object file
-day02/ex00/Fixed.class.cpp.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/day02/ex00/Fixed.class.cpp.o
-.PHONY : day02/ex00/Fixed.class.cpp.o
-
-day02/ex00/Fixed.class.i: day02/ex00/Fixed.class.cpp.i
-
-.PHONY : day02/ex00/Fixed.class.i
-
-# target to preprocess a source file
-day02/ex00/Fixed.class.cpp.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/day02/ex00/Fixed.class.cpp.i
-.PHONY : day02/ex00/Fixed.class.cpp.i
-
-day02/ex00/Fixed.class.s: day02/ex00/Fixed.class.cpp.s
-
-.PHONY : day02/ex00/Fixed.class.s
-
-# target to generate assembly for a file
-day02/ex00/Fixed.class.cpp.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/day02/ex00/Fixed.class.cpp.s
-.PHONY : day02/ex00/Fixed.class.cpp.s
-
-day02/ex00/main.o: day02/ex00/main.cpp.o
-
-.PHONY : day02/ex00/main.o
+.PHONY : day02/ex00/Fixed.o
 
 # target to build an object file
-day02/ex00/main.cpp.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/day02/ex00/main.cpp.o
-.PHONY : day02/ex00/main.cpp.o
+day02/ex00/Fixed.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/day02/ex00/Fixed.cpp.o
+.PHONY : day02/ex00/Fixed.cpp.o
 
-day02/ex00/main.i: day02/ex00/main.cpp.i
+day02/ex00/Fixed.i: day02/ex00/Fixed.cpp.i
 
-.PHONY : day02/ex00/main.i
+.PHONY : day02/ex00/Fixed.i
 
 # target to preprocess a source file
-day02/ex00/main.cpp.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/day02/ex00/main.cpp.i
-.PHONY : day02/ex00/main.cpp.i
+day02/ex00/Fixed.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/day02/ex00/Fixed.cpp.i
+.PHONY : day02/ex00/Fixed.cpp.i
 
-day02/ex00/main.s: day02/ex00/main.cpp.s
+day02/ex00/Fixed.s: day02/ex00/Fixed.cpp.s
 
-.PHONY : day02/ex00/main.s
+.PHONY : day02/ex00/Fixed.s
 
 # target to generate assembly for a file
-day02/ex00/main.cpp.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/day02/ex00/main.cpp.s
-.PHONY : day02/ex00/main.cpp.s
+day02/ex00/Fixed.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/day02/ex00/Fixed.cpp.s
+.PHONY : day02/ex00/Fixed.cpp.s
 
-day02/ex01/Fixed.class.o: day02/ex01/Fixed.class.cpp.o
+day02/ex01/Fixed.o: day02/ex01/Fixed.cpp.o
 
-.PHONY : day02/ex01/Fixed.class.o
+.PHONY : day02/ex01/Fixed.o
 
 # target to build an object file
-day02/ex01/Fixed.class.cpp.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/day02/ex01/Fixed.class.cpp.o
-.PHONY : day02/ex01/Fixed.class.cpp.o
+day02/ex01/Fixed.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/day02/ex01/Fixed.cpp.o
+.PHONY : day02/ex01/Fixed.cpp.o
 
-day02/ex01/Fixed.class.i: day02/ex01/Fixed.class.cpp.i
+day02/ex01/Fixed.i: day02/ex01/Fixed.cpp.i
 
-.PHONY : day02/ex01/Fixed.class.i
+.PHONY : day02/ex01/Fixed.i
 
 # target to preprocess a source file
-day02/ex01/Fixed.class.cpp.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/day02/ex01/Fixed.class.cpp.i
-.PHONY : day02/ex01/Fixed.class.cpp.i
+day02/ex01/Fixed.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/day02/ex01/Fixed.cpp.i
+.PHONY : day02/ex01/Fixed.cpp.i
 
-day02/ex01/Fixed.class.s: day02/ex01/Fixed.class.cpp.s
+day02/ex01/Fixed.s: day02/ex01/Fixed.cpp.s
 
-.PHONY : day02/ex01/Fixed.class.s
+.PHONY : day02/ex01/Fixed.s
 
 # target to generate assembly for a file
-day02/ex01/Fixed.class.cpp.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/day02/ex01/Fixed.class.cpp.s
-.PHONY : day02/ex01/Fixed.class.cpp.s
+day02/ex01/Fixed.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/day02/ex01/Fixed.cpp.s
+.PHONY : day02/ex01/Fixed.cpp.s
 
-day02/ex01/main.o: day02/ex01/main.cpp.o
+day02/ex02/Fixed.class.o: day02/ex02/Fixed.class.cpp.o
 
-.PHONY : day02/ex01/main.o
+.PHONY : day02/ex02/Fixed.class.o
 
 # target to build an object file
-day02/ex01/main.cpp.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/day02/ex01/main.cpp.o
-.PHONY : day02/ex01/main.cpp.o
+day02/ex02/Fixed.class.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/day02/ex02/Fixed.class.cpp.o
+.PHONY : day02/ex02/Fixed.class.cpp.o
 
-day02/ex01/main.i: day02/ex01/main.cpp.i
+day02/ex02/Fixed.class.i: day02/ex02/Fixed.class.cpp.i
 
-.PHONY : day02/ex01/main.i
+.PHONY : day02/ex02/Fixed.class.i
 
 # target to preprocess a source file
-day02/ex01/main.cpp.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/day02/ex01/main.cpp.i
-.PHONY : day02/ex01/main.cpp.i
+day02/ex02/Fixed.class.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/day02/ex02/Fixed.class.cpp.i
+.PHONY : day02/ex02/Fixed.class.cpp.i
 
-day02/ex01/main.s: day02/ex01/main.cpp.s
+day02/ex02/Fixed.class.s: day02/ex02/Fixed.class.cpp.s
 
-.PHONY : day02/ex01/main.s
+.PHONY : day02/ex02/Fixed.class.s
 
 # target to generate assembly for a file
-day02/ex01/main.cpp.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/day02/ex01/main.cpp.s
-.PHONY : day02/ex01/main.cpp.s
+day02/ex02/Fixed.class.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/day02/ex02/Fixed.class.cpp.s
+.PHONY : day02/ex02/Fixed.class.cpp.s
+
+day02/ex02/main.o: day02/ex02/main.cpp.o
+
+.PHONY : day02/ex02/main.o
+
+# target to build an object file
+day02/ex02/main.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/day02/ex02/main.cpp.o
+.PHONY : day02/ex02/main.cpp.o
+
+day02/ex02/main.i: day02/ex02/main.cpp.i
+
+.PHONY : day02/ex02/main.i
+
+# target to preprocess a source file
+day02/ex02/main.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/day02/ex02/main.cpp.i
+.PHONY : day02/ex02/main.cpp.i
+
+day02/ex02/main.s: day02/ex02/main.cpp.s
+
+.PHONY : day02/ex02/main.s
+
+# target to generate assembly for a file
+day02/ex02/main.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/day02/ex02/main.cpp.s
+.PHONY : day02/ex02/main.cpp.s
 
 day03/ex00/FragTrap.o: day03/ex00/FragTrap.cpp.o
 
@@ -1392,6 +1392,330 @@ day03/ex04/main.cpp.s:
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/day03/ex04/main.cpp.s
 .PHONY : day03/ex04/main.cpp.s
 
+day04/ex00/Peon.o: day04/ex00/Peon.cpp.o
+
+.PHONY : day04/ex00/Peon.o
+
+# target to build an object file
+day04/ex00/Peon.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/day04/ex00/Peon.cpp.o
+.PHONY : day04/ex00/Peon.cpp.o
+
+day04/ex00/Peon.i: day04/ex00/Peon.cpp.i
+
+.PHONY : day04/ex00/Peon.i
+
+# target to preprocess a source file
+day04/ex00/Peon.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/day04/ex00/Peon.cpp.i
+.PHONY : day04/ex00/Peon.cpp.i
+
+day04/ex00/Peon.s: day04/ex00/Peon.cpp.s
+
+.PHONY : day04/ex00/Peon.s
+
+# target to generate assembly for a file
+day04/ex00/Peon.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/day04/ex00/Peon.cpp.s
+.PHONY : day04/ex00/Peon.cpp.s
+
+day04/ex00/Sorcerer.o: day04/ex00/Sorcerer.cpp.o
+
+.PHONY : day04/ex00/Sorcerer.o
+
+# target to build an object file
+day04/ex00/Sorcerer.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/day04/ex00/Sorcerer.cpp.o
+.PHONY : day04/ex00/Sorcerer.cpp.o
+
+day04/ex00/Sorcerer.i: day04/ex00/Sorcerer.cpp.i
+
+.PHONY : day04/ex00/Sorcerer.i
+
+# target to preprocess a source file
+day04/ex00/Sorcerer.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/day04/ex00/Sorcerer.cpp.i
+.PHONY : day04/ex00/Sorcerer.cpp.i
+
+day04/ex00/Sorcerer.s: day04/ex00/Sorcerer.cpp.s
+
+.PHONY : day04/ex00/Sorcerer.s
+
+# target to generate assembly for a file
+day04/ex00/Sorcerer.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/day04/ex00/Sorcerer.cpp.s
+.PHONY : day04/ex00/Sorcerer.cpp.s
+
+day04/ex00/Victim.o: day04/ex00/Victim.cpp.o
+
+.PHONY : day04/ex00/Victim.o
+
+# target to build an object file
+day04/ex00/Victim.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/day04/ex00/Victim.cpp.o
+.PHONY : day04/ex00/Victim.cpp.o
+
+day04/ex00/Victim.i: day04/ex00/Victim.cpp.i
+
+.PHONY : day04/ex00/Victim.i
+
+# target to preprocess a source file
+day04/ex00/Victim.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/day04/ex00/Victim.cpp.i
+.PHONY : day04/ex00/Victim.cpp.i
+
+day04/ex00/Victim.s: day04/ex00/Victim.cpp.s
+
+.PHONY : day04/ex00/Victim.s
+
+# target to generate assembly for a file
+day04/ex00/Victim.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/day04/ex00/Victim.cpp.s
+.PHONY : day04/ex00/Victim.cpp.s
+
+day04/ex00/main.o: day04/ex00/main.cpp.o
+
+.PHONY : day04/ex00/main.o
+
+# target to build an object file
+day04/ex00/main.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/day04/ex00/main.cpp.o
+.PHONY : day04/ex00/main.cpp.o
+
+day04/ex00/main.i: day04/ex00/main.cpp.i
+
+.PHONY : day04/ex00/main.i
+
+# target to preprocess a source file
+day04/ex00/main.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/day04/ex00/main.cpp.i
+.PHONY : day04/ex00/main.cpp.i
+
+day04/ex00/main.s: day04/ex00/main.cpp.s
+
+.PHONY : day04/ex00/main.s
+
+# target to generate assembly for a file
+day04/ex00/main.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/day04/ex00/main.cpp.s
+.PHONY : day04/ex00/main.cpp.s
+
+day04/ex01/AWeapon.o: day04/ex01/AWeapon.cpp.o
+
+.PHONY : day04/ex01/AWeapon.o
+
+# target to build an object file
+day04/ex01/AWeapon.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/day04/ex01/AWeapon.cpp.o
+.PHONY : day04/ex01/AWeapon.cpp.o
+
+day04/ex01/AWeapon.i: day04/ex01/AWeapon.cpp.i
+
+.PHONY : day04/ex01/AWeapon.i
+
+# target to preprocess a source file
+day04/ex01/AWeapon.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/day04/ex01/AWeapon.cpp.i
+.PHONY : day04/ex01/AWeapon.cpp.i
+
+day04/ex01/AWeapon.s: day04/ex01/AWeapon.cpp.s
+
+.PHONY : day04/ex01/AWeapon.s
+
+# target to generate assembly for a file
+day04/ex01/AWeapon.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/day04/ex01/AWeapon.cpp.s
+.PHONY : day04/ex01/AWeapon.cpp.s
+
+day04/ex01/Character.o: day04/ex01/Character.cpp.o
+
+.PHONY : day04/ex01/Character.o
+
+# target to build an object file
+day04/ex01/Character.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/day04/ex01/Character.cpp.o
+.PHONY : day04/ex01/Character.cpp.o
+
+day04/ex01/Character.i: day04/ex01/Character.cpp.i
+
+.PHONY : day04/ex01/Character.i
+
+# target to preprocess a source file
+day04/ex01/Character.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/day04/ex01/Character.cpp.i
+.PHONY : day04/ex01/Character.cpp.i
+
+day04/ex01/Character.s: day04/ex01/Character.cpp.s
+
+.PHONY : day04/ex01/Character.s
+
+# target to generate assembly for a file
+day04/ex01/Character.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/day04/ex01/Character.cpp.s
+.PHONY : day04/ex01/Character.cpp.s
+
+day04/ex01/Enemy.o: day04/ex01/Enemy.cpp.o
+
+.PHONY : day04/ex01/Enemy.o
+
+# target to build an object file
+day04/ex01/Enemy.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/day04/ex01/Enemy.cpp.o
+.PHONY : day04/ex01/Enemy.cpp.o
+
+day04/ex01/Enemy.i: day04/ex01/Enemy.cpp.i
+
+.PHONY : day04/ex01/Enemy.i
+
+# target to preprocess a source file
+day04/ex01/Enemy.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/day04/ex01/Enemy.cpp.i
+.PHONY : day04/ex01/Enemy.cpp.i
+
+day04/ex01/Enemy.s: day04/ex01/Enemy.cpp.s
+
+.PHONY : day04/ex01/Enemy.s
+
+# target to generate assembly for a file
+day04/ex01/Enemy.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/day04/ex01/Enemy.cpp.s
+.PHONY : day04/ex01/Enemy.cpp.s
+
+day04/ex01/PlasmaRifle.o: day04/ex01/PlasmaRifle.cpp.o
+
+.PHONY : day04/ex01/PlasmaRifle.o
+
+# target to build an object file
+day04/ex01/PlasmaRifle.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/day04/ex01/PlasmaRifle.cpp.o
+.PHONY : day04/ex01/PlasmaRifle.cpp.o
+
+day04/ex01/PlasmaRifle.i: day04/ex01/PlasmaRifle.cpp.i
+
+.PHONY : day04/ex01/PlasmaRifle.i
+
+# target to preprocess a source file
+day04/ex01/PlasmaRifle.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/day04/ex01/PlasmaRifle.cpp.i
+.PHONY : day04/ex01/PlasmaRifle.cpp.i
+
+day04/ex01/PlasmaRifle.s: day04/ex01/PlasmaRifle.cpp.s
+
+.PHONY : day04/ex01/PlasmaRifle.s
+
+# target to generate assembly for a file
+day04/ex01/PlasmaRifle.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/day04/ex01/PlasmaRifle.cpp.s
+.PHONY : day04/ex01/PlasmaRifle.cpp.s
+
+day04/ex01/PowerFist.o: day04/ex01/PowerFist.cpp.o
+
+.PHONY : day04/ex01/PowerFist.o
+
+# target to build an object file
+day04/ex01/PowerFist.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/day04/ex01/PowerFist.cpp.o
+.PHONY : day04/ex01/PowerFist.cpp.o
+
+day04/ex01/PowerFist.i: day04/ex01/PowerFist.cpp.i
+
+.PHONY : day04/ex01/PowerFist.i
+
+# target to preprocess a source file
+day04/ex01/PowerFist.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/day04/ex01/PowerFist.cpp.i
+.PHONY : day04/ex01/PowerFist.cpp.i
+
+day04/ex01/PowerFist.s: day04/ex01/PowerFist.cpp.s
+
+.PHONY : day04/ex01/PowerFist.s
+
+# target to generate assembly for a file
+day04/ex01/PowerFist.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/day04/ex01/PowerFist.cpp.s
+.PHONY : day04/ex01/PowerFist.cpp.s
+
+day04/ex01/RadScorpion.o: day04/ex01/RadScorpion.cpp.o
+
+.PHONY : day04/ex01/RadScorpion.o
+
+# target to build an object file
+day04/ex01/RadScorpion.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/day04/ex01/RadScorpion.cpp.o
+.PHONY : day04/ex01/RadScorpion.cpp.o
+
+day04/ex01/RadScorpion.i: day04/ex01/RadScorpion.cpp.i
+
+.PHONY : day04/ex01/RadScorpion.i
+
+# target to preprocess a source file
+day04/ex01/RadScorpion.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/day04/ex01/RadScorpion.cpp.i
+.PHONY : day04/ex01/RadScorpion.cpp.i
+
+day04/ex01/RadScorpion.s: day04/ex01/RadScorpion.cpp.s
+
+.PHONY : day04/ex01/RadScorpion.s
+
+# target to generate assembly for a file
+day04/ex01/RadScorpion.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/day04/ex01/RadScorpion.cpp.s
+.PHONY : day04/ex01/RadScorpion.cpp.s
+
+day04/ex01/SuperMutant.o: day04/ex01/SuperMutant.cpp.o
+
+.PHONY : day04/ex01/SuperMutant.o
+
+# target to build an object file
+day04/ex01/SuperMutant.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/day04/ex01/SuperMutant.cpp.o
+.PHONY : day04/ex01/SuperMutant.cpp.o
+
+day04/ex01/SuperMutant.i: day04/ex01/SuperMutant.cpp.i
+
+.PHONY : day04/ex01/SuperMutant.i
+
+# target to preprocess a source file
+day04/ex01/SuperMutant.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/day04/ex01/SuperMutant.cpp.i
+.PHONY : day04/ex01/SuperMutant.cpp.i
+
+day04/ex01/SuperMutant.s: day04/ex01/SuperMutant.cpp.s
+
+.PHONY : day04/ex01/SuperMutant.s
+
+# target to generate assembly for a file
+day04/ex01/SuperMutant.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/day04/ex01/SuperMutant.cpp.s
+.PHONY : day04/ex01/SuperMutant.cpp.s
+
+day04/ex01/main.o: day04/ex01/main.cpp.o
+
+.PHONY : day04/ex01/main.o
+
+# target to build an object file
+day04/ex01/main.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/day04/ex01/main.cpp.o
+.PHONY : day04/ex01/main.cpp.o
+
+day04/ex01/main.i: day04/ex01/main.cpp.i
+
+.PHONY : day04/ex01/main.i
+
+# target to preprocess a source file
+day04/ex01/main.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/day04/ex01/main.cpp.i
+.PHONY : day04/ex01/main.cpp.i
+
+day04/ex01/main.s: day04/ex01/main.cpp.s
+
+.PHONY : day04/ex01/main.s
+
+# target to generate assembly for a file
+day04/ex01/main.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/day04/ex01/main.cpp.s
+.PHONY : day04/ex01/main.cpp.s
+
 utils_test/cannonical_Form/canonicalForm.class.o: utils_test/cannonical_Form/canonicalForm.class.cpp.o
 
 .PHONY : utils_test/cannonical_Form/canonicalForm.class.o
@@ -1777,11 +2101,11 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... edit_cache"
 	@echo "... main"
-	@echo "... CMakeFiles/3.14.2/CompilerIdCXX/CMakeCXXCompilerId.o"
-	@echo "... CMakeFiles/3.14.2/CompilerIdCXX/CMakeCXXCompilerId.i"
-	@echo "... CMakeFiles/3.14.2/CompilerIdCXX/CMakeCXXCompilerId.s"
+	@echo "... edit_cache"
+	@echo "... CMakeFiles/3.14.3/CompilerIdCXX/CMakeCXXCompilerId.o"
+	@echo "... CMakeFiles/3.14.3/CompilerIdCXX/CMakeCXXCompilerId.i"
+	@echo "... CMakeFiles/3.14.3/CompilerIdCXX/CMakeCXXCompilerId.s"
 	@echo "... day00/ex00/megaphone.o"
 	@echo "... day00/ex00/megaphone.i"
 	@echo "... day00/ex00/megaphone.s"
@@ -1848,18 +2172,18 @@ help:
 	@echo "... day01/ex07/replace.o"
 	@echo "... day01/ex07/replace.i"
 	@echo "... day01/ex07/replace.s"
-	@echo "... day02/ex00/Fixed.class.o"
-	@echo "... day02/ex00/Fixed.class.i"
-	@echo "... day02/ex00/Fixed.class.s"
-	@echo "... day02/ex00/main.o"
-	@echo "... day02/ex00/main.i"
-	@echo "... day02/ex00/main.s"
-	@echo "... day02/ex01/Fixed.class.o"
-	@echo "... day02/ex01/Fixed.class.i"
-	@echo "... day02/ex01/Fixed.class.s"
-	@echo "... day02/ex01/main.o"
-	@echo "... day02/ex01/main.i"
-	@echo "... day02/ex01/main.s"
+	@echo "... day02/ex00/Fixed.o"
+	@echo "... day02/ex00/Fixed.i"
+	@echo "... day02/ex00/Fixed.s"
+	@echo "... day02/ex01/Fixed.o"
+	@echo "... day02/ex01/Fixed.i"
+	@echo "... day02/ex01/Fixed.s"
+	@echo "... day02/ex02/Fixed.class.o"
+	@echo "... day02/ex02/Fixed.class.i"
+	@echo "... day02/ex02/Fixed.class.s"
+	@echo "... day02/ex02/main.o"
+	@echo "... day02/ex02/main.i"
+	@echo "... day02/ex02/main.s"
 	@echo "... day03/ex00/FragTrap.o"
 	@echo "... day03/ex00/FragTrap.i"
 	@echo "... day03/ex00/FragTrap.s"
@@ -1920,6 +2244,42 @@ help:
 	@echo "... day03/ex04/main.o"
 	@echo "... day03/ex04/main.i"
 	@echo "... day03/ex04/main.s"
+	@echo "... day04/ex00/Peon.o"
+	@echo "... day04/ex00/Peon.i"
+	@echo "... day04/ex00/Peon.s"
+	@echo "... day04/ex00/Sorcerer.o"
+	@echo "... day04/ex00/Sorcerer.i"
+	@echo "... day04/ex00/Sorcerer.s"
+	@echo "... day04/ex00/Victim.o"
+	@echo "... day04/ex00/Victim.i"
+	@echo "... day04/ex00/Victim.s"
+	@echo "... day04/ex00/main.o"
+	@echo "... day04/ex00/main.i"
+	@echo "... day04/ex00/main.s"
+	@echo "... day04/ex01/AWeapon.o"
+	@echo "... day04/ex01/AWeapon.i"
+	@echo "... day04/ex01/AWeapon.s"
+	@echo "... day04/ex01/Character.o"
+	@echo "... day04/ex01/Character.i"
+	@echo "... day04/ex01/Character.s"
+	@echo "... day04/ex01/Enemy.o"
+	@echo "... day04/ex01/Enemy.i"
+	@echo "... day04/ex01/Enemy.s"
+	@echo "... day04/ex01/PlasmaRifle.o"
+	@echo "... day04/ex01/PlasmaRifle.i"
+	@echo "... day04/ex01/PlasmaRifle.s"
+	@echo "... day04/ex01/PowerFist.o"
+	@echo "... day04/ex01/PowerFist.i"
+	@echo "... day04/ex01/PowerFist.s"
+	@echo "... day04/ex01/RadScorpion.o"
+	@echo "... day04/ex01/RadScorpion.i"
+	@echo "... day04/ex01/RadScorpion.s"
+	@echo "... day04/ex01/SuperMutant.o"
+	@echo "... day04/ex01/SuperMutant.i"
+	@echo "... day04/ex01/SuperMutant.s"
+	@echo "... day04/ex01/main.o"
+	@echo "... day04/ex01/main.i"
+	@echo "... day04/ex01/main.s"
 	@echo "... utils_test/cannonical_Form/canonicalForm.class.o"
 	@echo "... utils_test/cannonical_Form/canonicalForm.class.i"
 	@echo "... utils_test/cannonical_Form/canonicalForm.class.s"
