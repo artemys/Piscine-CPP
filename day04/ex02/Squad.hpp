@@ -15,7 +15,7 @@ public:
 
 private:
     int _count;
-    ISpaceMarine *_spaceMarine[10];
+    ISpaceMarine *_spaceMarines[10];
 
 };
 #endif
