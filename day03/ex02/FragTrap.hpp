@@ -6,6 +6,7 @@
 #include <iostream>
 #include <sstream>
 
+
  class FragTrap : public ClapTrap {
  public:
      FragTrap(std::string);

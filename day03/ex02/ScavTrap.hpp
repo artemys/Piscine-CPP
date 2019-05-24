@@ -4,6 +4,7 @@
 #include <string>
 #include <iostream>
 #include <sstream>
+
 #include "ClapTrap.hpp"
 
 class ScavTrap : public ClapTrap{
