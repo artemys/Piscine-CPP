@@ -10,7 +10,10 @@ RadScorpion::~RadScorpion(void) {
     std::cout << "* SPROTCH *" << std::endl;
 }
 
-RadScorpion &RadScorpion::operator=(const RadScorpion &) { return *this; }
+RadScorpion &RadScorpion::operator=(const RadScorpion &rhs) {
+    Enemy::operator=(rhs);
+    return *this;
+}
 
 void RadScorpion::takeDamage(int damage) {
     Enemy::takeDamage(damage - 3);

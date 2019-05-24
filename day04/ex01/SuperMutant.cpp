@@ -10,4 +10,7 @@ SuperMutant::~SuperMutant(void) {
  std::cout << "Aaargh ..." <<std::endl;
 }
 
-SuperMutant &SuperMutant::operator=(const SuperMutant &) { return *this; }
+SuperMutant &SuperMutant::operator=(const SuperMutant &rhs) {
+    Enemy::operator=(rhs);
+    return *this;
+}
