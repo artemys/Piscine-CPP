@@ -10,10 +10,13 @@ class ScavTrap : public ClapTrap{
 public:
     ScavTrap(std::string);
     ScavTrap (ScavTrap const &);
-    ~ScavTrap();
+    virtual ~ScavTrap();
     ScavTrap & operator=(ScavTrap const & rhs);
 
     void challengeNewcomer(std::string const & target);
+
+private:
+    ScavTrap();
 
 
 };

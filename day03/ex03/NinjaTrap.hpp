@@ -12,7 +12,7 @@ class NinjaTrap : public ClapTrap {
 public:
     NinjaTrap(std::string);
     NinjaTrap (NinjaTrap const &);
-    ~NinjaTrap();
+    virtual ~NinjaTrap();
     NinjaTrap & operator=(NinjaTrap const & rhs);
 
     void ninjaShoebox(ClapTrap  const & );
@@ -20,5 +20,7 @@ public:
     void ninjaShoebox(ScavTrap  const & );
     void ninjaShoebox(FragTrap  const & );
 
+private:
+    NinjaTrap();
 };
 #endif

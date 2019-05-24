@@ -9,7 +9,7 @@
  public:
      FragTrap(std::string);
      FragTrap (FragTrap const &);
-     ~FragTrap();
+     virtual ~FragTrap();
     FragTrap & operator=(FragTrap const & rhs);
 
      void rangedAttack(std::string const & target);
@@ -20,6 +20,7 @@
 
 
  private:
+     FragTrap();
      unsigned int _hitPoints;
      unsigned int _maxHitPoints;
      unsigned int _energyPoints;

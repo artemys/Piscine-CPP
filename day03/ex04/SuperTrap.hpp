@@ -12,11 +12,13 @@ class SuperTrap : public virtual NinjaTrap, public virtual FragTrap {
 public:
     SuperTrap(std::string);
     SuperTrap(SuperTrap const &);
-    ~SuperTrap();
+    virtual ~SuperTrap();
     SuperTrap &operator=(SuperTrap const &rhs);
 
     void rangedAttack(std::string const &);
     void meleeAttack(std::string const &);
 
+private:
+    SuperTrap();
 };
 #endif

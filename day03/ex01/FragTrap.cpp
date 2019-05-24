@@ -125,6 +125,3 @@ FragTrap::FragTrap(FragTrap const &src) {
     *this = src;
     return;
 }
-
-
-

@@ -125,5 +125,3 @@ ScavTrap::ScavTrap(ScavTrap const &src) {
     *this = src;
     return;
 }
-
-

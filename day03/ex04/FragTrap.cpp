@@ -1,3 +1,4 @@
+
 #include "FragTrap.hpp"
 
 std::string randomAttackName[5] = {
@@ -49,6 +50,3 @@ FragTrap::FragTrap(FragTrap const &src) : ClapTrap(src) {
     *this = src;
 
 }
-
-
-

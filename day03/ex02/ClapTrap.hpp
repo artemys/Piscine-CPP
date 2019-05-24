@@ -33,5 +33,7 @@ protected:
 
     std::string display(void) const;
 
+private:
+    ClapTrap();
 };
 #endif

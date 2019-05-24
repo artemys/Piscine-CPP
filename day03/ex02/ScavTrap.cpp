@@ -50,5 +50,3 @@ ScavTrap::ScavTrap(ScavTrap const &src) : ClapTrap(src) {
     std::cout << "Copy constructor called" << std::endl;
     *this = src;
 }
-
-

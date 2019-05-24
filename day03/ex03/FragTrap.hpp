@@ -10,10 +10,12 @@
  public:
      FragTrap(std::string);
      FragTrap (FragTrap const &);
-     ~FragTrap();
+     virtual ~FragTrap();
     FragTrap & operator=(FragTrap const & rhs);
 
      void vaulthunter_dot_exe(std::string const & target);
 
+ private:
+    FragTrap();
  };
 #endif

@@ -20,5 +20,7 @@ public:
     void ninjaShoebox(ScavTrap  const & );
     void ninjaShoebox(FragTrap  const & );
 
+private:
+    NinjaTrap();
 };
 #endif

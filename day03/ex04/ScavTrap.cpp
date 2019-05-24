@@ -1,3 +1,4 @@
+
 #include "ScavTrap.hpp"
 
 std::string randomChallenge[5] = {
@@ -48,6 +49,10 @@ void ScavTrap::challengeNewcomer(std::string const &target) {
 ScavTrap::ScavTrap(ScavTrap const &src) : ClapTrap(src) {
     std::cout << "Copy constructor called" << std::endl;
     *this = src;
+}
+
+ScavTrap::ScavTrap() {
+
 }
 
 
