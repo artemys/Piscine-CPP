@@ -13,6 +13,7 @@ Peon::~Peon() {
 }
 
 Peon &Peon::operator=(const Peon &rhs) {
+    Victim::getName() = rhs.getName();
     return *this;
 }
 
