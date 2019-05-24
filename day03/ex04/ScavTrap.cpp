@@ -51,8 +51,4 @@ ScavTrap::ScavTrap(ScavTrap const &src) : ClapTrap(src) {
     *this = src;
 }
 
-ScavTrap::ScavTrap() {
-
-}
-
 
