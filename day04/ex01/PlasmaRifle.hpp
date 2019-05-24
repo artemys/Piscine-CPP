@@ -5,13 +5,14 @@
 
 class PlasmaRifle : public AWeapon{
 public:
-    PlasmaRifle(void);
     PlasmaRifle(PlasmaRifle const & src);
-    virtual ~PlasmaRifle(void);
+    virtual ~PlasmaRifle();
     PlasmaRifle &operator=(PlasmaRifle const & rhs);
     void attack() const;
+    PlasmaRifle();
 
 private:
+
 };
 
 

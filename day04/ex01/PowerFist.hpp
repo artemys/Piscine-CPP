@@ -1,14 +1,19 @@
-#ifndef AWEAPON_HPP
-#define AWEAPON_HPP
-class AWeapon{
-public:
-    AWeapon(void);
-    AWeapon(AWeapon const & src);
-    ~AWeapon(void);
+#ifndef POWERFIST_HPP
+#define POWERFIST_HPP
 
-    AWeapon &operator=(AWeapon const & rhs);
+#include "AWeapon.hpp"
+
+class PowerFist : public AWeapon{
+public:
+    PowerFist(PowerFist const & src);
+    virtual ~PowerFist(void);
+
+    PowerFist &operator=(PowerFist const & rhs);
+    void attack() const;
+    PowerFist(void);
 
 private:
+
 };
 
 

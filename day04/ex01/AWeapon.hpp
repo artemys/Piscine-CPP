@@ -4,6 +4,7 @@
 #include <iostream>
 class AWeapon{
 public:
+
     AWeapon(AWeapon const & src);
     virtual ~AWeapon(void);
     AWeapon &operator=(AWeapon const & rhs);

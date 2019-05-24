@@ -1,12 +1,13 @@
-#ifndef AWEAPON_HPP
-#define AWEAPON_HPP
-class AWeapon{
+#ifndef SUPERMUTANT_HPP
+#define SUPERMUTANT_HPP
+#include "Enemy.hpp"
+class SuperMutant : public Enemy{
 public:
-    AWeapon(void);
-    AWeapon(AWeapon const & src);
-    ~AWeapon(void);
+    SuperMutant(void);
+    SuperMutant(SuperMutant const & src);
+    virtual ~SuperMutant(void);
 
-    AWeapon &operator=(AWeapon const & rhs);
+    SuperMutant &operator=(SuperMutant const & rhs);
 
 private:
 };

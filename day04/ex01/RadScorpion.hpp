@@ -1,13 +1,16 @@
-#ifndef AWEAPON_HPP
-#define AWEAPON_HPP
-class AWeapon{
+#ifndef RADSCORPION_HPP
+#define RADSCORPION_HPP
+
+#include "Enemy.hpp"
+
+class RadScorpion : public Enemy {
 public:
-    AWeapon(void);
-    AWeapon(AWeapon const & src);
-    ~AWeapon(void);
+    RadScorpion();
+    RadScorpion(RadScorpion const & src);
+    virtual ~RadScorpion(void);
+    RadScorpion &operator=(RadScorpion const & rhs);
 
-    AWeapon &operator=(AWeapon const & rhs);
-
+    void takeDamage(int);
 private:
 };
 

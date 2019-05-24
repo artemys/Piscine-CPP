@@ -1,12 +1,12 @@
 #ifndef CHARACTER_HPP
 #define CHARACTER_HPP
-class AWeapon{
+class Character{
 public:
-    AWeapon(void);
-    AWeapon(AWeapon const & src);
-    ~AWeapon(void);
+    Character(void);
+    Character(Character const & src);
+    virtual~Character(void);
 
-    AWeapon &operator=(AWeapon const & rhs);
+    Character &operator=(Character const & rhs);
 
 private:
 };

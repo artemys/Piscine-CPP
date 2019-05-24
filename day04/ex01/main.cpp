@@ -14,6 +14,8 @@ main () {
    // Enemy   *b = new RadScorpion();
     AWeapon *pf = new PowerFist();
     AWeapon *pr = new PlasmaRifle();
+    pf->attack();
+    pr->attack();
 
 //    zaz->equip(pr);
 //    std::cout << *zaz;
