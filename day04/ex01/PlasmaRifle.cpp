@@ -4,7 +4,7 @@
 PlasmaRifle::PlasmaRifle(const PlasmaRifle &src) : AWeapon(src) {}
 PlasmaRifle::~PlasmaRifle(void) {}
 
-PlasmaRifle &PlasmaRifle::operator=(const PlasmaRifle &rhs) { return *this; }
+PlasmaRifle &PlasmaRifle::operator=(const PlasmaRifle &) { return *this; }
 
 void PlasmaRifle::attack() const {
     std::cout << "* piouuu piouuu piouuu *" << std::endl;

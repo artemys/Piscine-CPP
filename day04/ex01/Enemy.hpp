@@ -21,5 +21,4 @@ private:
     std::string _type;
 };
 
-
 #endif

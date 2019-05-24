@@ -9,7 +9,6 @@ public:
 
     SuperMutant &operator=(SuperMutant const & rhs);
 
-private:
 };
 
 
