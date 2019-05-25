@@ -2,7 +2,7 @@
 #define SQUAD_HPP
 
 #include "ISquad.hpp"
-
+#define MAX_SIZE 10
 class Squad : public ISquad {
 public:
     Squad();
@@ -15,7 +15,7 @@ public:
 
 private:
     int _count;
-    ISpaceMarine *_spaceMarines[10];
+    ISpaceMarine *_spaceMarines[MAX_SIZE];
 
 };
 #endif

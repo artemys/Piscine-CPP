@@ -15,6 +15,7 @@ public:
     int getDamage() const;
     virtual void attack() const = 0;
 
+
 private:
     AWeapon();
     std::string _name;

@@ -29,3 +29,4 @@ int AWeapon::getApcost() const {
 int AWeapon::getDamage() const {
     return this->_damage;
 }
+

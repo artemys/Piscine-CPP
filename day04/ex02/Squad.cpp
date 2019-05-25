@@ -1,6 +1,6 @@
 #include "Squad.hpp"
-Squad::Squad() {
-    for (int i = 0; i < this->_count; ++i) {
+Squad::Squad() : _count(0) {
+    for (int i = 0; i < MAX_SIZE; ++i) {
         this->_spaceMarines[i] = NULL;
     }
 }
