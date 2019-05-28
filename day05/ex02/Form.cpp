@@ -36,14 +36,36 @@ unsigned int Form::getExecSign() const {
 }
 
 
-void Form::beSigned(Bureaucrat &Bur) {
-    if(_signGrade > Bur.getGrade())
+void Form::beSigned(Bureaucrat const &bur) {
+    if(_signGrade < bur.getGrade())
         throw Form::GradeTooLowException();
     _isSign = true;
 }
 
-std::string Form::getName() const {
+std::string const Form::getName() const {
     return _name;
+}
+
+
+void Form::checkRight(Bureaucrat const &bur) const {
+    if(_execGrade < bur.getGrade())
+        throw Form::GradeTooLowException();
+
+}
+
+void Form::execute(Bureaucrat const &executor) const {
+
+    if (getIsSign() == false)
+        throw Form::FormNotSignedException();
+
+    checkRight(executor);
+}
+
+std::string const &Form::getTarget() const {
+    return _target;
+}
+
+Form::Form() : _isSign(false), _signGrade(0), _execGrade(0){
 }
 
 
@@ -56,4 +78,7 @@ char const *Form::GradeTooLowException::what() const throw(){
 }
 char const *Form::GradeTooHighException::what() const throw(){
     return "Grade too high";
+}
+char const *Form::FormNotSignedException::what() const throw(){
+    return "Form is not signed";
 }

@@ -13,13 +13,13 @@ main () {
     RobotomyRequestForm rrf("Joker");
     ShrubberyCreationForm scf("Batcave");
 
+    batman.signForm(scf);
     batman.executeForm(ppf);
     batman.executeForm(rrf);
-    batman.executeForm(scf);
 
-    batman.signForm(ppf);
-    batman.signForm(rrf);
-    batman.signForm(scf);
+     batman.signForm(ppf);
+     batman.signForm(rrf);
+    batman.executeForm(scf);
 
     batman.executeForm(ppf);
     batman.executeForm(rrf);
@@ -28,6 +28,5 @@ main () {
     alfred.executeForm(ppf);
     alfred.executeForm(rrf);
     alfred.executeForm(scf);
-
     return 0;
 }

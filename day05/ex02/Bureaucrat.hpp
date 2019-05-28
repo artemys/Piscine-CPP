@@ -32,6 +32,7 @@ public:
      void       incGrade();
      void       decGrade();
      void       signForm(Form&);
+     void       executeForm(Form&);
 
      /*     CLASS            */
     class GradeTooLowException : public  std::exception {

@@ -3,16 +3,21 @@
 
 #include "Form.hpp"
 #include <iostream>
+#include <fstream>
+#include <sstream>
 class ShrubberyCreationForm : public Form{
 public:
     /*      COPLIEN         */
     virtual ~ShrubberyCreationForm();
     ShrubberyCreationForm();
-    ShrubberyCreationForm(ShrubberyCreationForm const &);
     ShrubberyCreationForm const &operator=(ShrubberyCreationForm const &);
+    ShrubberyCreationForm(ShrubberyCreationForm const &);
+
     ShrubberyCreationForm(std::string);
+
+    /*       GETTERS           */
+    std::string  const  getTarget() const;
 private:
-    std::string         _target;
     void                execute(Bureaucrat const & executor) const;
 };
 
