@@ -7,7 +7,7 @@ RobotomyRequestForm::operator=(RobotomyRequestForm const &) {
     return *this;
 }
 
-RobotomyRequestForm::RobotomyRequestForm(std::string const target) : Form("robotomy request", target, 45, 72){
+RobotomyRequestForm::RobotomyRequestForm(std::string const target) : Form("Robotomy Form", target, 45, 72){
 
 }
 

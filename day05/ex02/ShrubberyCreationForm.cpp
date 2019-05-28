@@ -6,7 +6,7 @@ ShrubberyCreationForm::~ShrubberyCreationForm() {}
 
 ShrubberyCreationForm const & ShrubberyCreationForm::operator=(ShrubberyCreationForm const &) { return *this; }
 
-ShrubberyCreationForm::ShrubberyCreationForm(std::string const target) : Form("ShrubberyForm", target,  137, 145){ }
+ShrubberyCreationForm::ShrubberyCreationForm(std::string const target) : Form("Shrubbery Form", target,  137, 145){ }
 
 void ShrubberyCreationForm::execute(Bureaucrat const &executor) const {
 
