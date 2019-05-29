@@ -5,7 +5,7 @@ NAME = convert
 all : $(NAME)
 
 clean :
-	rm $(NAME)
+	rm -rf $(NAME)
 re : clean all
 
 $(NAME) :
