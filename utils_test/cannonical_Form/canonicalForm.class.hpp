@@ -4,11 +4,11 @@
 #include <iostream>
 class Canonical{
 public:
-    Canonical(void);                    //Canonical
-    Canonical(Canonical const & src);   //Canonical
-    ~Canonical(void);                   //Canonical
+    Canonical(void);
+    Canonical(Canonical const & src);
+    virtual ~Canonical(void);
 
-    Canonical &operator=(Canonical const & rhs); //Canonical
+    Canonical &operator=(Canonical const & rhs);
 
     int getFoo(void) const;
 

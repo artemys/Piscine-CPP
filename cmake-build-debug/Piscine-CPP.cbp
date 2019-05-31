@@ -334,70 +334,142 @@
 		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/day03/ex04/main.cpp">
 			<Option target="main"/>
 		</Unit>
-		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/day04/ex00/Peon.cpp">
-			<Option target="main"/>
-		</Unit>
-		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/day04/ex00/Peon.hpp">
-			<Option target="main"/>
-		</Unit>
-		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/day04/ex00/Sorcerer.cpp">
-			<Option target="main"/>
-		</Unit>
-		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/day04/ex00/Sorcerer.hpp">
-			<Option target="main"/>
-		</Unit>
-		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/day04/ex00/Victim.cpp">
-			<Option target="main"/>
-		</Unit>
-		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/day04/ex00/Victim.hpp">
-			<Option target="main"/>
-		</Unit>
-		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/day04/ex00/main.cpp">
-			<Option target="main"/>
-		</Unit>
 		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/day04/ex01/AWeapon.cpp">
 			<Option target="main"/>
 		</Unit>
 		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/day04/ex01/AWeapon.hpp">
 			<Option target="main"/>
 		</Unit>
-		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/day04/ex01/Character.cpp">
+		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/day04/ex02/Squad.cpp">
 			<Option target="main"/>
 		</Unit>
-		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/day04/ex01/Character.hpp">
+		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/day04/ex02/Squad.hpp">
 			<Option target="main"/>
 		</Unit>
-		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/day04/ex01/Enemy.cpp">
+		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/day05/ex00/Bureaucrat.cpp">
 			<Option target="main"/>
 		</Unit>
-		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/day04/ex01/Enemy.hpp">
+		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/day05/ex00/Bureaucrat.hpp">
 			<Option target="main"/>
 		</Unit>
-		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/day04/ex01/PlasmaRifle.cpp">
+		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/day05/ex00/main.cpp">
 			<Option target="main"/>
 		</Unit>
-		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/day04/ex01/PlasmaRifle.hpp">
+		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/day05/ex01/Bureaucrat.cpp">
 			<Option target="main"/>
 		</Unit>
-		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/day04/ex01/PowerFist.cpp">
+		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/day05/ex01/Bureaucrat.hpp">
 			<Option target="main"/>
 		</Unit>
-		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/day04/ex01/PowerFist.hpp">
+		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/day05/ex01/Form.cpp">
 			<Option target="main"/>
 		</Unit>
-		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/day04/ex01/RadScorpion.cpp">
+		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/day05/ex01/Form.hpp">
 			<Option target="main"/>
 		</Unit>
-		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/day04/ex01/RadScorpion.hpp">
+		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/day05/ex01/main.cpp">
 			<Option target="main"/>
 		</Unit>
-		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/day04/ex01/SuperMutant.cpp">
+		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/day05/ex02/Bureaucrat.cpp">
 			<Option target="main"/>
 		</Unit>
-		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/day04/ex01/SuperMutant.hpp">
+		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/day05/ex02/Bureaucrat.hpp">
 			<Option target="main"/>
 		</Unit>
-		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/day04/ex01/main.cpp">
+		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/day05/ex02/Form.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/day05/ex02/Form.hpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/day05/ex02/PresidentialPardonForm.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/day05/ex02/PresidentialPardonForm.hpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/day05/ex02/RobotomyRequestForm.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/day05/ex02/RobotomyRequestForm.hpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/day05/ex02/ShrubberyCreationForm.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/day05/ex02/ShrubberyCreationForm.hpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/day05/ex02/main.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/day05/ex03/Bureaucrat.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/day05/ex03/Bureaucrat.hpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/day05/ex03/Form.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/day05/ex03/Form.hpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/day05/ex03/Intern.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/day05/ex03/Intern.hpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/day05/ex03/PresidentialPardonForm.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/day05/ex03/PresidentialPardonForm.hpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/day05/ex03/RobotomyRequestForm.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/day05/ex03/RobotomyRequestForm.hpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/day05/ex03/ShrubberyCreationForm.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/day05/ex03/ShrubberyCreationForm.hpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/day05/ex03/main.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/day06/ex00/Convert.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/day06/ex00/Convert.hpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/day06/ex00/main.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/day06/ex01/main.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/day06/ex02/main.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/day07/ex00/main.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/day07/ex01/iter.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/day07/ex02/array.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/day08/ex00/easyfind.hpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/day08/ex00/main.cpp">
 			<Option target="main"/>
 		</Unit>
 		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/utils_test/cannonical_Form/canonicalForm.class.cpp">
@@ -425,6 +497,9 @@
 			<Option target="main"/>
 		</Unit>
 		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/utils_test/function_polymorphism/main.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/utils_test/function_polymorphism/sub_typing_main.cpp">
 			<Option target="main"/>
 		</Unit>
 		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/utils_test/operator_overload/Integer.class.cpp">
@@ -455,6 +530,21 @@
 			<Option target="main"/>
 		</Unit>
 		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/utils_test/references/sendRef.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/utils_test/template/Vertex.class.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/utils_test/template/class.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/utils_test/template/main.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/utils_test/template/mainSpecialization.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/utils_test/template/maindefautlType.cpp">
 			<Option target="main"/>
 		</Unit>
 		<Unit filename="/home/iphie/42/CPP/Piscine-CPP/CMakeLists.txt">
