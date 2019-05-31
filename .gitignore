@@ -1,2 +1,7 @@
+<<<<<<< HEAD
 .idea/
 cmake-build-debug
+=======
+cmake-build-debug
+.idea
+>>>>>>> ef5e2a8aa03c14a86dda78cf63e040bffeb7f435
